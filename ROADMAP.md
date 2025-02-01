@@ -165,4 +165,3 @@
 *   **Database (Optional):** MongoDB, PostgreSQL, or another database if you need to store user data or other dynamic content.
 *   **Hosting:** GitHub Pages (for static sites), Netlify, Vercel, Heroku, or other hosting providers.
 
-This roadmap provides a long-term vision for your Quran mindmap application. Remember that it's important to be flexible and adapt to user feedback and new opportunities along the way. Breaking down each phase into smaller, manageable tasks will make the development process more organized and less overwhelming.
