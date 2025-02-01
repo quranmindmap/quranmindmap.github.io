@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About the Mindmap Method</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
 </head>
 <body>
     <div class="container">
@@ -18,15 +26,60 @@
                 <li><b>Improved Memory:</b> The visual nature of mindmaps can enhance memory and retention.</li>
                 <li><b>Deeper Understanding:</b> By actively engaging with the material and making connections, you can gain a deeper understanding of the Quran's message.</li>
             </ul>
-            <h2>How to Use This App</h2>
-            <p>
-                Click on any surah to view more details.
-            </p>
-            <p>
-                This app is using mermaid.js to display mindmap.
-            </p>
+
+            <h2>Example Mindmap</h2>
+            <div id="mermaid-container" class="mermaid">
+                mindmap
+                root((Mind Map Learning Benefits))
+                    Memory & Retention
+                      Enhances recall
+                      Engages both hemispheres
+                    Creativity & Idea Generation
+                      Encourages free thinking
+                      Visual linking of concepts
+                    Organization & Structure
+                      Hierarchical visualization
+                      Breaks complex topics
+                    Faster Learning & Understanding
+                      Reduces note-taking
+                      Speeds up comprehension
+                    Critical Thinking & Problem-Solving
+                      Shows relationships
+                      Encourages analysis
+                    Collaboration & Team Learning
+                      Great for group work
+                      Digital sharing
+                    Learning Style Adaptability
+                      Visual, auditory, kinesthetic
+                      Supports multimedia
+                    Reduces Cognitive Load
+                      Simplifies complexity
+                      Prevents information overload
+            </div>
+
+            <h2>Supporting Resources</h2>
+            <h3>Web Articles</h3>
+            <ul>
+                <li><a href="https://www.tonybuzan.com/" target="_blank">Tony Buzan’s Mind Mapping Method</a></li>
+                <li><a href="https://www.mindmeister.com/blog/mind-mapping-benefits/" target="_blank">Mind Mapping Benefits – MindMeister</a></li>
+                <li><a href="https://www.imindmap.com/mind-mapping-science/" target="_blank">The Science Behind Mind Maps – iMindMap</a></li>
+            </ul>
+
+            <h3>Books</h3>
+            <ul>
+                <li>The Mind Map Book – Tony Buzan</li>
+                <li>Mind Mapping For Dummies – Florian Rustler</li>
+                <li>Use Your Head – Tony Buzan</li>
+            </ul>
+
+            <h3>YouTube Videos</h3>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wLWV0XN7K1g" title="How to Use Mind Maps Effectively - TEDx Talk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5nTuScU70As?si=QsGfzDudssduxmqO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Grd7K7bJVWg?si=9yCfofVcmPAhAB51" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
-    <script src="src/script.js"></script>
+     <script src="script.js"></script>
 </body>
 </html>
