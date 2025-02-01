@@ -20,6 +20,13 @@ h1 {
     letter-spacing: 1px; /* Slight letter spacing for readability */
 }
 
+.slogan {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
 .language-buttons {
     margin-bottom: 20px;
 }

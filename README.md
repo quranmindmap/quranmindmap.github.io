@@ -1,3 +1,20 @@
+# Quran Mind Map App  
+
+## 📖 Objectives  
+An interactive mind map tool designed to help Muslims deeply understand and memorize the Quran.(based Tafsir Saadi)  
+
+### 🌟 Key Objectives:  
+1. **Simplify Quran Learning** – Break down complex topics into visually structured mind maps for easier understanding and retention.  
+2. **Enhance Comprehension** – Connect Quranic themes, meanings, and tafsir through interactive mind maps.  
+3. **Personalized Learning Journey** – Empower users to navigate the Quran at their own pace with an intuitive, structured approach.  
+4. **Strengthen Memorization** – Use visual mapping techniques to improve hifz (memorization) and recall of verses.  
+5. **Bridge Knowledge Gaps** – Connect ayahs, surahs, and historical contexts in an engaging way.  
+6. **Encourage Reflection (Tadabbur)** – Foster deeper thinking about Quranic messages through interactive connections and annotations.  
+7. **Community Engagement** – Allow users to share, discuss, and collaborate on Quranic insights through mind maps.  
+8. **Lightweight & Accessible** – A simple, browser-based tool with no complex installations, making it easy for anyone to start their Quranic journey.  
+
+🚀 **Start your journey of Quranic understanding today!** 
+
 
 ## How to Contribute
 
