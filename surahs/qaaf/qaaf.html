@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Qaaf</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah </h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat Qaf))
+                 The Qur'an and Divine Truth
+                    (1-4: Affirmation of the Qur'an and the response of the disbelievers to it)
+                    (1-2: The Qur'an is a glorious book)
+                    (1-2: The rejection of the Qur'an stems from wonder)
+                    (5:  The disbelievers deny the truth that has come to them)
+               The Power of Allah
+                  (4-5: Allah knows what the earth consumes and has a record of all things)
+                   (6-11: Reflection upon Allah’s Creation -heavens, earth, plants-)
+              Resurrection and Accountability
+                 (16-18: Allah knows what whispers in the heart and Allah has appointed recorders to note everything)
+                (19-23: The throes of death bring the truth, and every soul will come with a witness)
+                (23-29: Hell will be the destination of those who disbelieve and do evil)
+              The Reminder and Warnings
+                   (30-35: Those who are righteous will be granted paradise, and its descriptions)
+                (36-37: Those who disbelieved did not benefit from earlier generations)
+                (38: Do not fall into doubt and be heedless)
+                (38-40: Emphasizing the need to be patient and glorify Allah)
+                 (41-45: Allah’s power over everything and warning to disbelievers)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat Qaf] --> B(1-5: The Qur'an and Divine Truth);
+        A --> C(4-11: The Power of Allah);
+        A --> D(16-30: Resurrection and Accountability);
+        A --> E(30-45: The Reminder and Warnings);
+       
+        B --> B1(The Qur'an is a glorious book);
+       B --> B2(The rejection of the Qur'an stems from wonder);
+       B --> B3(The disbelievers deny the truth that has come to them);
+
+        C --> C1(Allah knows what the earth consumes and has a record of all things);
+        C --> C2(Reflection upon Allah’s Creation -heavens, earth, plant-);
+   
+       D --> D1(Allah knows what whispers in the heart and Allah has appointed recorders to note everything);
+       D --> D2(The throes of death bring the truth, and every soul will come with a witness);
+      D --> D3(Hell will be the destination of those who disbelieve and do evil);
+  
+        E --> E1(Those who are righteous will be granted paradise, and its descriptions);
+        E --> E2(Those who disbelieved did not benefit from earlier generations);
+      E --> E3(Do not fall into doubt and be heedless);
+      E --> E4(Emphasizing the need to be patient and glorify Allah);
+      E --> E5(Allah's power over everything and warning to disbelievers) ;
+         
+    
+      </div>
+    <script src="qaaf.js"></script>
+</body>
+</html>

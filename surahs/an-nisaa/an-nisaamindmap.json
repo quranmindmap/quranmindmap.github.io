@@ -1,0 +1,78 @@
+{
+    "name": "Al-Nisa",
+    "children": [
+      {
+        "name": "Orphans",
+        "children": [
+          { "name": "Protect their property", "size": 1 },
+          { "name": "Do not consume their wealth", "size": 1 },
+          { "name": "Marry orphan women if just", "size": 1 }
+        ]
+      },
+      {
+        "name": "Marriage",
+        "children": [
+          { "name": "Polygamy with justice", "size": 1 },
+          { "name": "Give women their dowers", "size": 1 },
+          { "name": "Marry believing women", "size": 1 },
+          { "name": "Prohibited degrees of marriage", "size": 1}
+        ]
+      },
+      {
+        "name": "Divorce",
+        "children": [
+          { "name": "Waiting period", "size": 1 },
+          { "name": "Retain or release honorably", "size": 1 },
+          { "name": "Remarriage after divorce", "size": 1 }
+        ]
+      },
+      {
+        "name": "Inheritance",
+        "children": [
+          { "name": "Shares for men and women", "size": 1 },
+          { "name": "Distribution after bequests and debts", "size": 1 }
+        ]
+      },
+      {
+        "name": "Hypocrites",
+        "children": [
+          { "name": "Doubt and wavering", "size": 1 },
+          { "name": "Seek to deceive God", "size": 1 },
+          { "name": "Disobey the Messenger", "size": 1 }
+        ]
+      },
+      {
+        "name": "Believers",
+        "children": [
+          { "name": "Obey God and the Messenger", "size": 1 },
+          { "name": "Strive in the cause of God", "size": 1 },
+          { "name": "Show kindness and patience", "size": 1 },
+          { "name": "Seek forgiveness", "size": 1 }
+        ]
+      },
+      {
+        "name": "Disbelievers",
+        "children": [
+          { "name": "Reject the truth", "size": 1 },
+          { "name": "Face punishment", "size": 1 },
+          { "name": "Follow their desires", "size": 1 }
+        ]
+      },
+      {
+        "name": "Justice",
+        "children": [
+          { "name": "Act equitably", "size": 1 },
+          { "name": "Do not be unjust", "size": 1 },
+          { "name": "Settle disputes fairly", "size": 1 }
+        ]
+      },
+      {
+        "name": "Guidance",
+        "children": [
+          { "name": "Follow the straight path", "size": 1 },
+          { "name": "Avoid arrogance and conceit", "size": 1 },
+          { "name": "Repent and seek forgiveness", "size": 1 }
+        ]
+      }
+    ]
+  }

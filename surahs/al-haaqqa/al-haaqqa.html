@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-haqqa</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-Haqqa</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Qalam))
+          Divine Oaths and Affirmation
+           (1-7: The oath of The Pen, and affirmation of Prophet Muhammad and the Qur'an)
+            (1-4:  The oath and the descriptions of the Messenger and the revelation)
+         Rejection and Their Characteristics
+           (4-7:  The disbelievers view Prophet Muhammad as insane)
+           (8-16: Disobedience and opposition to Allah and his messengers )
+           (10-16:  Description of the evil characteristics of the people of falsehood)
+       Divine Attributes and Warnings
+          (17-18: The test and the punishment of the people of the garden as a warning)
+           (31: Allah knows what He has prepared for the righteous)
+           (44-47: Allah is all-powerful and there is nothing that He does not know)
+        The Righteous and Their Reward
+            (34-35: The description of the rewards of those who are righteous)
+         (40: The righteous are to be patient and Allah knows those who are rightly guided)
+        Divine Justice
+            (28-32: Those who go astray are subject to Allah's anger)
+            (44-47: The punishment for the evil doers is severe)
+      The Qur'an as Guidance
+          (48-52: The Qur'an is a reminder and a truth and the disbelievers still reject it)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Qalam] --> B(1-7: Divine Oaths and Affirmation);
+        A --> C(4-16, 21-26: Rejection and Their Characteristics);
+         A --> D(17-31, 44-47: Divine Attributes and Warnings);
+        A --> E(34-40: The Righteous and Their Reward);
+       A --> F(48-52: The Qur'an as Guidance);
+    
+         B --> B1(The oath of The Pen, and affirmation of Prophet Muhammad and the Qur'an);
+         B --> B2(The description of the Messenger and the Qur'an);
+
+         C --> C1(The disbelievers view Prophet Muhammad as insane.);
+         C --> C2(Those who deny the message are arrogant and oppose the truth);
+         C --> C3(Description of the evil characteristics of the people of falsehood);
+    
+        D --> D1(The test and the punishment of the people of the garden as a warning);
+          D --> D2(Allah will punish those who do not follow his message);
+           D --> D3(Allah has power and knows all, and that the disbelievers will be brought to account);
+       E --> E1(Descriptions of the rewards of those who are righteous);
+        E --> E2(The righteous are patient and Allah knows those who are rightly guided);
+        
+       F --> F1(The Qur'an is a reminder and a truth)
+         
+    
+      </div>
+    <script src="al-haaqqa.js"></script>
+</body>
+</html>

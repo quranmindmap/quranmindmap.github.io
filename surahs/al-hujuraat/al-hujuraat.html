@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-Hujurat</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-Hujurat</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Hujurât))
+                Adab -Manners- in the presence of Allah and Messenger
+                     (1-3: Do not proceed with matters before Allah and His Messenger)
+                     (2: Do not raise your voices above the Prophet or speak loudly to him)
+                Adab Among Believers
+                     (6: Verify information, lest you harm innocents)
+                     (11: Do not ridicule or give bad nicknames)
+                    (12: Avoid suspicion, spying and backbiting)
+                     (13: Mankind is one family and should know one another)
+                  (10: Make peace between fighting brothers)
+                  (10: Believers are but brothers, and the importance of their relationship)
+             The Superiority of the Righteous
+                   (13: Nobility is based on righteousness, not family lineage)
+                   (15-18: Allah knows best those who have true faith, and they are to submit to Him)
+                Guidance on Faith and Conduct
+                    (6: If a wrongdoer brings you news, verify it)
+                   (11: Do not attribute faults to your brothers)
+                   (12: Shun suspicion and backbiting)
+                  (13: Know the different tribes so that people may recognise one another)
+              Divine Knowledge
+                (6: Allah is All-Hearing, All-Seeing)
+                 (13: Allah is All-Knowing, All-Aware)
+             Allah's Authority and Power
+                 (18: Allah has knowledge of all things)
+                  (18: Allah’s decree cannot be altered)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Soorat al-Hujurât] --> B(1-3: Adab with Allah and Messenger);
+        A --> C(6-13: Adab Among Believers);
+        A --> D(13-18: The Superiority of the Righteous);
+        A --> E(6, 11-12: Guidance on Faith and Conduct);
+        A --> F(1, 3, 13, 18: Divine Knowledge);
+      A --> G(13, 18: Allah's Authority and Power);
+
+        B --> B1(Do not proceed with matters before Allah and His Messenger);
+        B --> B2(Do not raise your voices above the Prophet or speak loudly to him);
+	
+        C --> C1(Verify information, lest you harm innocents);
+        C --> C2(Do not ridicule or give bad nicknames);
+         C --> C3(Avoid suspicion, spying and backbiting);
+        C --> C4(Mankind is one family and should know one another);
+	    C --> C5(Make peace between fighting brothers);
+      C --> C6(Believers are but brothers, and the importance of their relationship)
+   
+       D --> D1(Nobility is based on righteousness, not family lineage);
+	  D --> D2(Allah knows best those who have true faith, and they are to submit to Him);
+      
+        E --> E1(If a wrongdoer brings you news, verify it);
+         E --> E2(Do not attribute faults to your brothers);
+	E --> E3(Shun suspicion and backbiting);
+       E --> E4(Know the different tribes so that people may recognize one another)
+     F --> F1(Allah is All-Hearing, All-Seeing);
+         F --> F2(Allah is All-Knowing, All-Aware);
+  
+        G --> G1(Allah’s decree cannot be altered);
+        G --> G2(Allah has knowledge of all things)
+         
+    
+      </div>
+    <script src="as-sajda.js"></script>
+</body>
+</html>

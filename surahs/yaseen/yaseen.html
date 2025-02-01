@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Yaseen</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Yaseen</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah Yâ Seen))
+             Introduction and Message
+                Divine origin of Qur’an
+                Prophet Muhammad's truthfulness
+                Rejection of Message and its consequences
+             Story of the People of the City
+                Messengers' Guidance
+               People’s Arrogance and Hostility
+                Believing Man’s Sincerity and Paradise
+             Allah's Signs and Power
+                Allah's power in creation
+                Cycle of Life, Death, Resurrection
+             The Day of Judgement
+                State of believers in paradise
+                State of disbelievers in hell
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Surah Ya Seen] --> B(Verses 1-12:  Introduction, affirmation of the Qur'an and the Prophet's Message);
+    A --> C(Verses 13-32: The Story of the People of the City and Their Rejection of the Messengers);
+    A --> D(Verses 33-50: Signs of Allah's Power, the Cycle of Life, Death and Resurrection);
+    A --> E(Verses 51-83: The Day of Judgement, the States of the Believers and Disbelievers);
+        B --> B1(Divine origin of the Qur'an and the truthfulness of the Prophet's Message);
+        B --> B2(The rejection of the message and its consequences);
+        C --> C1(The clear proof and guidance brought by the Messengers);
+       C --> C2(The arrogant rejection, hostility, and threat of the people);
+        C --> C3(The advice of the believing man, his affirmation of faith and his entry into paradise);
+        D --> D1(Allah’s power in His creation and His blessings);
+          D --> D2(The cycle of life, death and resurrection);
+         E --> E1(The resurrection and judgement and the state of the Believers);
+         E --> E2(The state of the disbelievers in hell);
+         
+    
+      </div>
+    <script src="yaseen.js"></script>
+</body>
+</html>

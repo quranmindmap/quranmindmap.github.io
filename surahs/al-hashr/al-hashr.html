@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-hashr</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-hashr</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Hashr))
+        Divine Power and Control
+           (1: All in the heavens and earth glorifies Allah, for He has power over all)
+            (5: Allah has power over all things and that all is under His control)
+            (6: Allah bestows what He wills)
+        The Expulsion of Banu an-Nadir
+           (2:  Allah drove out the disbelievers, though they thought they could resist)
+         (3:  Allah decreed exile upon them)
+           (4-5: Those who oppose Allah face severe consequences)
+           (5: Allah has power over the believers and their enemies)
+       The Source of Authority and Guidance
+          (7: How to allocate the spoils of war)
+           (9: How to attain true guidance, and the need to seek forgiveness for sins)
+        (10: Supplication to Allah to avoid all grudges)
+      The Believers
+           (8: They seek grace from Allah, support Allah's cause and His Messenger)
+            (9: They are generous to their brothers and give preference to others)
+      The Attributes of Allah
+        (1-4: Allah’s attributes of perfection and knowledge)
+           (22-24: Allah is worthy of all veneration and that His beautiful names, attributes and actions are a foundation of belief)
+       The Quran as Reminder and Guidance
+           (21: The Qur'an is divine revelation and it has power)
+            (21: If Allah willed, He could bring forth all His power and destroy all)
+           (22-24: The Qur'an is a reminder for all people to reflect, learn and be guided)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Hashr] --> B(1, 5-6: Divine Power and Control);
+        A --> C(2-5: The Expulsion of Banu an-Nadir);
+       A --> D(7-10: The Source of Authority and Guidance);
+       A --> E(8-9: The Believers);
+       A --> F(1-6, 22-24: The Attributes of Allah);
+       A --> G(21-24: The Qur'an as Reminder and Guidance);
+      
+        B --> B1(All in the heavens and earth glorifies Allah, for He has power over all);
+        B --> B2(Allah has power over all things and that all is under His control);
+        B --> B3(Allah bestows what He wills);
+	
+        C --> C1(Allah drove out the disbelievers, though they thought they could resist);
+        C --> C2(Allah decreed exile upon them);
+       C --> C3(Those who oppose Allah face severe consequences);
+       C --> C4(Allah has power over the believers and their enemies);
+
+       D --> D1(How to allocate the spoils of war);
+         D --> D2(How to attain true guidance, and the need to seek forgiveness for sins);
+         D --> D3(The need to suplicate to Allah to avoid all grudges) ;
+  
+       E --> E1(They seek grace from Allah, support Allah's cause and His Messenger);
+         E --> E2(They are generous to their brothers and give preference to others);
+     
+	  F --> F1(Allah’s attributes of perfection and knowledge);
+    
+      G --> G1(The Qur'an is divine revelation and it has power);
+         G --> G2(If Allah willed, He could bring forth all His power and destroy all);
+        G --> G3(The Qur'an is a reminder for all people to reflect, learn and be guided);
+         
+    
+      </div>
+    <script src="al-hashr.js"></script>
+</body>
+</html>

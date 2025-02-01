@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Quraish</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Quraish</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat Quraysh))
+        The Blessings upon Quraysh
+            (1:  For the blessings -We have bestowed upon- Quraysh)
+            (2: The blessing of their regular journeys, winter and summer)
+       The Need for Worship
+           (3: Let them worship the Lord of this House)
+      Allah’s Bounty
+          (4: He fed them against hunger and has secured them against fear)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat Quraysh] --> B(1-2: The Blessings upon Quraysh);
+    
+
+      A --> C(3: The Need for Worship);
+      A --> D(4: Allah’s Bounty);
+
+      B --> B1(For the blessings -We have bestowed upon- Quraysh);
+      B --> B2(The blessing of their regular journeys, winter and summer);
+    
+      C --> C1(Let them worship the Lord of this House);
+  
+      D --> D1(He fed them against hunger and has secured them against fear);
+         
+    
+      </div>
+    <script src="quraish.js"></script>
+</body>
+</html>

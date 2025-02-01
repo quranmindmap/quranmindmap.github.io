@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-Jinn</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-Jinn</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Jinn))
+                The Jinn's Experience with the Qur'an
+                    (1-2: A group of jinn listened to the Qur'an and affirmed its guidance)
+                The Oneness of Allah and Rejection of Polytheism
+                   (2: The Jinn affirmed their belief and divine oneness)
+                    (3-5: Allah has no wife or children, and is far above what they attribute to Him)
+               The Human Condition
+                   (6: Some humans seek refuge with the jinn, increasing them in transgression)
+                (7: The disbelievers among humans think that Allah would not send Messengers)
+                (14: There are both righteous and unrighteous people among the jinn)
+             Divine Revelation and Guidance
+                   (1-2: Allah revealed to the Prophet that a group of jinn had heard the Qur'an)
+                    (16: The importance of adhering to the guidance)
+                (17: Those who adhere to guidance will be rewarded, and those who turn away will be punished)
+               Allah's Power and Knowledge
+                  (26-28: Allah is the Knower of the Unseen, and protects his Messengers)
+                (20: All are subservient to Allah's will)
+             The Messengers' Duty
+                   (20-23: The messengers are to convey Allah's message)
+                  (23: The duty to submit to Allah and His Messengers )
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Jinn] --> B(1-2: The Jinn's Experience with the Qur'an);
+        A --> C(2-5: The Oneness of Allah and Rejection of Polytheism);
+       A --> D(6-14: The Human Condition);
+        A --> E(1-18: Divine Revelation and Guidance);
+        A --> F(20, 23, 26-28: Allah's Power and Knowledge);
+       A --> G(20-23: The Messengers' Duty);
+        
+        B --> B1(A group of jinn listened to the Qur'an and affirmed its guidance);
+   
+        C --> C1(The Jinn affirmed their belief and divine oneness);
+        C --> C2(Allah has no wife or children, and is far above what they attribute to Him);
+
+        D --> D1(Some humans seek refuge with the jinn, increasing them in transgression);
+        D --> D2(The disbelievers among humans think that Allah would not send Messengers);
+       D --> D3(There are both righteous and unrighteous people among the jinn);
+   
+        E --> E1(Allah revealed to the Prophet that a group of jinn had heard the Qur'an);
+       E --> E2(The importance of adhering to the guidance);
+        E --> E3(Those who adhere to guidance will be rewarded, and those who turn away will be punished);
+        
+        F --> F1(Allah is the Knower of the Unseen, and protects his Messengers);
+       F --> F2(Allah has power over all things);
+        
+        G --> G1(The messengers are to convey Allah's message);
+       G --> G2(The duty to submit to Allah and his Messengers)
+         
+    
+      </div>
+    <script src="al-jinn.js"></script>
+</body>
+</html>

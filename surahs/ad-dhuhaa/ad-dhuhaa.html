@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Ad-Dhuhaa</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Ad-Dhuhaa</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat ad-Duhâ))
+        Divine Oaths and their Significance
+             (1-2: Allah swears by the day and night)
+       Allah's Favor to His Messenger
+           (3-5:  Allah has not forsaken his Messenger nor does He hate him; rather Allah gives him an eternal reward)
+       The Blessings Bestowed Upon The Prophet
+            (6: He was an orphan whom Allah sheltered and protected)
+             (7: He was unaware of the true path which Allah then guided him to)
+           (8: He was in poverty, so Allah enriched him)
+      The Importance of Guidance and Gratitude
+         (9-10:  The need to be kind and merciful)
+        (9-10: Do not turn away the orphan or the beggar)
+           (11: Speak of Allah’s blessings)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat ad-Duha] --> B(1-2: Divine Oaths and their Significance);
+        A --> C(3-5: Allah's Favor to His Messenger);
+        A --> D(6-8: The Blessings Bestowed Upon The Prophet);
+        A --> E(9-11: The Importance of Guidance and Gratitude);
+    
+        B --> B1(Oaths by the day and night);
+
+        C --> C1(Allah has not forsaken his Messenger nor does He hate him, rather Allah gives him an eternal reward);
+	
+       D --> D1(He was an orphan whom Allah sheltered and protected);
+       D --> D2(He was unaware of the true path which Allah then guided him to);
+       D --> D3(He was in poverty, so Allah enriched him);
+   
+        E --> E1(The need to be kind and merciful);
+         E --> E2(Do not turn away the orphan or the beggar);
+        E --> E3(Speak of Allah's blessings);
+    
+      </div>
+    <script src="ad-dhuhaa.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Qasas</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Qasas</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah al-Qasas))
+              Introduction
+                  Pharaoh’s transgression and arrogance
+              Story of Moosa
+                 Moosa’s protection from the plot to kill him
+                 Moosa’s journey to Madyan
+              Moosa’s Prophethood & His Confrontation with Pharaoh
+                   Moosa’s Prophethood and his interactions with Pharaoh
+              Victory of Truth
+                  The victory of truth, and defeat of falsehood
+                 The truthfulness of the Qur'an, and rejection of its message
+              Rewards of Faith & Allah's Power
+                  The rewards and triumph of those who fear Allah
+                  All Creation is Subject to Allah
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah al-Qasas] --> B(Verses 1-4: Introduction; Pharaoh's Tyranny and Arrogance);
+        A --> C(Verses 5-28: Story of Moosa and His Mother, His Early Life in Egypt, and Escape to Madyan);
+         A --> D(Verses 29-50: Moosa's Prophethood and Encounters with Pharaoh);
+          A --> E(Verses 51-82: Response to Pharaoh, The Power of the Qur’an, Truth and Falsehood, and The Ultimate Fate );
+    A --> F(Verses 83-88: Success of the Righteous and Power of the Lord);
+        B --> B1(Pharaoh’s transgression and arrogance);
+      C --> C1(Moosa’s protection from the plot to kill him );
+        C --> C2(Moosa’s journey to Madyan);
+     D --> D1(Moosa’s Prophethood and his interactions with Pharaoh);
+    E --> E1(The victory of truth, and defeat of falsehood);
+        E --> E2(The truthfulness of the Qur'an, and rejection of its message);
+       F --> F1(The rewards and triumph of those who fear Allah);
+      F --> F2(All Creation is Subject to Allah)
+         
+    
+      </div>
+    <script src="al-qasas.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah an-najm</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah an-najm</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat an-Najm))
+                Divine Revelation and the Prophet
+                    (1-18: The Prophet's vision of Jibreel, and the divine nature of the Qur'an)
+                    (26: Angels' intercession is dependent on Allah's permission)
+               The Hereafter and Accountability
+                   (15-19: The location of Paradise near the Lote-Tree of the Utmost Boundary)
+                  (26-30: The fate of those who turn away from the truth)
+                   (31-32: Allah's all-encompassing knowledge and just requital for deeds)
+               The Rejection of the Disbelievers
+                   (19-25: The polytheists' belief in false deities and their rejection of the truth)
+                    (33-62: Descriptions of the disbelievers' rejection and their deeds)
+               Divine Attributes
+                    (26: Allah is the only One worthy of worship)
+                 (60: Allah makes people laugh and weep, has control over life and death)
+                  (62: Allah has ultimate control and all actions must be directed to Him)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat an-Najm] --> B(1-18: Divine Revelation and the Prophet);
+        A --> C(19-30, 33-62: The Rejection of the Disbelievers);
+        A --> D(15-32: The Hereafter and Accountability);
+        A --> E(26, 60, 62: Divine Attributes);
+
+       B --> B1(The Prophet's vision of Jibreel, and the divine nature of the Qur'an);
+	    B --> B2(Angels' intercession is dependent on Allah's permission);
+
+        C --> C1(The polytheists' belief in false deities and their rejection of the truth);
+        C --> C2(Descriptions of the disbelievers' rejection and their deeds);
+
+        D --> D1(The location of Paradise near the Lote-Tree of the Utmost Boundary);
+       D --> D2(The fate of those who turn away from the truth);
+        D --> D3(Allah's all-encompassing knowledge and just requital for deeds);
+
+    	E --> E1(Allah is the only One worthy of worship);
+        E --> E2(Allah makes people laugh and weep, has control over life and death);
+       E --> E3(Allah has ultimate control and all actions must be directed to Him)
+    
+      </div>
+    <script src="an-najm.js"></script>
+</body>
+</html>

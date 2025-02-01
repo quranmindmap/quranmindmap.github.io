@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah  Surah Al-Balad</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah  Surah Al-Balad</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Balad))
+        Divine Oaths and Significance
+            (1-3: Oaths by Makkah and the creation of Adam and his progeny)
+         Human Existence and Hardship
+             (4: Mankind was created to endure hardship)
+            (5: Thinking that no one can over power them is a mistake)
+          (6-7: The love of wealth and boasting leads people astray)
+      The Paths of Goodness and Righteousness
+           (11-16: Man is given a choice to follow the difficult path which is that of good conduct and seeking what is right)
+           (12-16: The path of doing good deeds such as freeing slaves, and feeding the needy)
+       Those Who Follow Evil
+           (13-16: They have followed evil because of love of wealth and their arrogance)
+      The Promise of Divine Recompense and Justice
+            (17-20: Those who are righteous will attain great success)
+       (17-20: Those who follow the path of evil will be punished)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Balad] --> B(1-3: Divine Oaths and Significance);
+      A --> C(4-7: Human Existence and Hardship);
+      A --> D(11-16: The Paths of Goodness and Righteousness);
+      A --> E(13-16: Those Who Follow Evil);
+      A --> F(17-20: The Promise of Divine Recompense and Justice);
+
+   
+        B --> B1(Oaths by Makkah and the creation of Adam and his progeny);
+        
+        C --> C1(Mankind was created to endure hardship);
+       C --> C2(Thinking that no one can over power them is a mistake);
+        C --> C3(The love of wealth and boasting leads people astray);
+    
+       D --> D1(Man is given a choice to follow the difficult path which is that of good conduct and seeking what is right);
+       D --> D2(The path of doing good deeds such as freeing slaves, and feeding the needy);
+
+       E --> E1(They have followed evil because of love of wealth and their arrogance);
+    
+       F --> F1(Those who are righteous will attain great success);
+        F --> F2(Those who follow the path of evil will be punished);
+         
+    
+      </div>
+    <script src="al-balad.js"></script>
+</body>
+</html>

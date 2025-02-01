@@ -1,0 +1,79 @@
+{
+    "name": "Al-Ma'idah",
+    "children": [
+      {
+        "name": "Obligations",
+        "children": [
+          { "name": "Fulfill covenants", "size": 1 },
+          { "name": "Dietary laws (Halal/Haram)", "size": 1 },
+          { "name": "Hunting during pilgrimage", "size": 1 }
+        ]
+      },
+      {
+        "name": "Justice",
+        "children": [
+          { "name": "Act righteously", "size": 1 },
+          { "name": "Do not transgress", "size": 1 },
+          { "name": "Avoid oppression", "size": 1 }
+        ]
+      },
+      {
+        "name": "Stories of Prophets",
+        "children": [
+          { "name": "Moses and the Israelites", "size": 1 },
+          { "name": "Jesus and the Disciples", "size": 1 },
+          { "name": "Cain and Abel", "size": 1 }
+        ]
+      },
+      {
+        "name": "Prohibitions",
+        "children": [
+          { "name": "Intoxicants", "size": 1 },
+          { "name": "Gambling", "size": 1 },
+          { "name": "Divination", "size": 1 },
+          { "name": "Breaking oaths", "size": 1 }
+        ]
+      },
+      {
+        "name": "Hajj",
+        "children": [
+          { "name": "Sacred months", "size": 1 },
+          { "name": "Sacred Mosque", "size": 1 },
+          { "name": "Do not violate sanctity", "size": 1 }
+        ]
+      },
+      {
+        "name": "People of the Book",
+        "children": [
+          { "name": "Some believed", "size": 1 },
+          { "name": "Some rejected the truth", "size": 1 },
+          {"name": "The Prophet as a mercy to all mankind","size":1},
+          { "name": "Distorted scriptures", "size": 1 }
+        ]
+      },
+      {
+        "name": "God",
+        "children": [
+          { "name": "One and Only", "size": 1 },
+          { "name": "All-Powerful", "size": 1 },
+          { "name": "All-Knowing", "size": 1 },
+          { "name": "Forgiving and Merciful", "size": 1 }
+        ]
+      },
+      {
+        "name": "Consequences",
+        "children": [
+          { "name": "Reward for believers", "size": 1 },
+          { "name": "Punishment for disbelievers", "size": 1 }
+        ]
+      },
+      {
+        "name": "Quran",
+        "children": [
+          { "name": "Guidance for mankind", "size": 1 },
+          { "name": "Criterion between right and wrong", "size": 1 },
+          { "name": "Preserved by God", "size": 1 }
+        ]
+      }
+    ]
+  }

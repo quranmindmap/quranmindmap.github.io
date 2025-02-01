@@ -1,0 +1,110 @@
+{
+  "name": "Al-Baqarah",
+  "children": [
+    {
+      "name": "Guidance",
+      "children": [
+        { "name": "For the righteous", "size": 1 },
+        { "name": "Book of no doubt", "size": 1 }
+      ]
+    },
+    {
+      "name": "Believers",
+      "children": [
+        { "name": "Believe in the unseen", "size": 1 },
+        { "name": "Steadfast in prayer", "size": 1 },
+        { "name": "Spend out of what is provided", "size": 1 },
+        { "name": "Believe in revelation", "size": 1 }
+      ]
+    },
+    {
+      "name": "Disbelievers",
+      "children": [
+        { "name": "Deny the truth", "size": 1 },
+        { "name": "Hearts and ears sealed", "size": 1 },
+        { "name": "Eyes covered", "size": 1 }
+      ]
+    },
+    {
+      "name": "Hypocrites",
+      "children": [
+        { "name": "Claim to believe but do not", "size": 1 },
+        { "name": "Deceive themselves", "size": 1 },
+        { "name": "Cause corruption", "size": 1 },
+        { "name": "Mock believers", "size": 1 }
+      ]
+    },
+    {
+      "name": "Creation",
+      "children": [
+        { "name": "Story of Adam", "size": 1 },
+        { "name": "God taught Adam all the names", "size": 1 },
+        { "name": "Angels prostrate before Adam", "size": 1 },
+        { "name": "Iblis (Satan) refuses", "size": 1 }
+      ]
+    },
+    {
+      "name": "Children of Israel",
+      "children": [
+        { "name": "Favors bestowed upon them", "size": 1 },
+        { "name": "Covenant with God", "size": 1 },
+        { "name": "Deliverance from Pharaoh", "size": 1 },
+        { "name": "Worshipping the golden calf", "size": 1 },
+        { "name": "Manna and quails", "size": 1 },
+        { "name": "Rejection of signs", "size": 1 }
+      ]
+    },
+    {
+      "name": "Laws and Ethics",
+      "children": [
+        { "name": "Retribution in cases of murder", "size": 1 },
+        { "name": "Fasting in Ramadan", "size": 1 },
+        { "name": "Hajj and Umrah", "size": 1 },
+        { "name": "Prohibition of usury", "size": 1 },
+        { "name": "Zakat (prescribed alms)", "size": 1 },
+        { "name": "Dietary laws", "size": 1 }
+      ]
+    },
+    {
+      "name": "Jihad",
+      "children": [
+        { "name": "Fighting in self-defense", "size": 1 },
+        { "name": "Peaceful ideological struggle", "size": 1 }
+      ]
+    },
+    {
+      "name": "Day of Judgement",
+      "children": [
+        { "name": "No intercession accepted", "size": 1 },
+        { "name": "Rewards and punishments", "size": 1 },
+        { "name": "Paradise and Hell", "size": 1 }
+      ]
+    },
+    {
+      "name": "Reminders",
+      "children": [
+        { "name": "Be mindful of God", "size": 1 },
+        { "name": "Do not be arrogant", "size": 1 },
+        { "name": "Do not conceal the truth", "size": 1 },
+        { "name": "Do not be ungrateful", "size": 1 }
+      ]
+    },
+    {
+      "name": "Marriage and Divorce",
+      "children": [
+        {
+          "name": "Retribution for husbands",
+          "size": 1
+        },
+        {
+          "name": "Waiting period",
+          "size": 1
+        },
+        {
+          "name": "Rights of divorced women",
+          "size": 1
+        }
+      ]
+    }
+  ]
+}

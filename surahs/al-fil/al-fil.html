@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Fil</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Fil</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Feel))
+        The Story of the Army of the Elephant
+           (1:  Have you not seen what your Lord did to the army of the elephant?)
+           (2: Allah caused their evil plans to go astray)
+          (3-5: Allah sent birds against them that pelted them with stones and destroyed them)
+        The Divine Lesson
+            (5: Allah made them like a crop devoured and trampled)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Feel] --> B(1-5: The Story of the Army of the Elephant);
+        A --> C(5: The Divine Lesson);
+
+        B --> B1(Have you not seen what your Lord did to the army of the elephant?);
+        B --> B2(Allah caused their evil plans to go astray);
+        B --> B3(Allah sent birds against them that pelted them with stones and destroyed them);
+
+        C --> C1(Allah made them like a crop devoured and trampled);
+    
+      </div>
+    <script src="al-fil.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Qaari'a</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Qaari'a</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Qari'ah))
+         The Catastrophe and Its Significance
+            (1-3:  The Catastrophe, its importance, and that it will inevitably come to pass)
+            (4-5:  Mankind will be like scattered moths and the mountains like tufts of dyed wool)
+     The Division of Humanity
+            (6-7:  Those whose good deeds weigh heavy will be in a well-pleasing life)
+          (8-11: Those whose good deeds weigh lightly will have hell as their abode)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Qari'ah] --> B(1-3: The Catastrophe and Its Significance);
+        A --> C(4-5: The State of Humanity);
+         A --> D(6-11: The Division of Humanity);
+    
+       B --> B1(The Catastrophe, its importance, and that it will inevitably come to pass);
+
+        C --> C1(Mankind will be like scattered moths and the mountains like tufts of dyed wool);
+
+        D --> D1(Those whose good deeds weigh heavy will be in a well-pleasing life);
+       D --> D2(Those whose good deeds weigh lightly will have hell as their abode);
+         
+    
+      </div>
+    <script src="al-qaaria.js"></script>
+</body>
+</html>

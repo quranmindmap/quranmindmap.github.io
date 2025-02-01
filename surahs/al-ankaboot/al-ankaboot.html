@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-ankaboot</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al--ankaboot</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah al-'Ankaboot))
+              Introduction & Test of Faith
+                The Test of Faith
+                The need for sincerity in faith
+              People who worship Allah on the edge
+                  The dangers of wavering faith
+              The Story of Nooh
+                   The Message of monotheism and the flood
+               Story of Ibraheem
+                   Ibraheem's Call and his actions
+               Story of Loot
+                   The Warning against sodomy, and their punishment
+              The Futility of False Reliance
+                  The spider as an example of false security
+                  The weak gods that people worship
+              The Qur'an, Remembrance, and Striving
+                 The Qur'an as Guidance
+                 The need for remembrance of Allah
+                  The importance of striving in Allah's cause
+             Allah's Power and the Final Abode
+                 Allah's power and knowledge in creation and provision
+                 The final destination of all people
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah al-'Ankaboot] --> B(Verses 1-9: Introduction and the Test of Faith);
+        A --> C(Verses 10-13: People who worship Allah on the Edge);
+        A --> D(Verses 14-23: The Story of Nooh);
+        A --> E(Verses 24-30: Story of Prophet Ibraheem and his people);
+        A --> F(Verses 31-40: Story of Prophet Lut and His People );
+        A --> G(Verses 41-44: The Futility of False Reliance on False Gods);
+        A --> H(Verses 45-59: The Qur'an and Guidance, Remembrance of Allah, and the Concept of Striving);
+        A --> I(Verses 60-69: Signs of Allah's provision and power, and the final destination and ultimate end);
+          B --> B1(The Test of Faith);
+        B --> B2(The need for sincerity in faith);
+         C --> C1(The dangers of wavering faith);
+       D --> D1(The Message of monotheism and the flood);
+        E --> E1(Ibraheem's call and his actions);
+          F --> F1(The Warning against sodomy, and their punishment);
+        G --> G1(The spider as an example of false security);
+         G --> G2(The weak gods that people worship);
+     H --> H1(The Qur'an as Guidance);
+      H --> H2(The need for remembrance of Allah);
+     H --> H3(The importance of striving in Allah's cause);
+    
+       I --> I1(Allah's power and knowledge in creation and provision);
+       I --> I2(The final destination of all people);
+         
+    
+      </div>
+    <script src="al-ankaboot.js"></script>
+</body>
+</html>

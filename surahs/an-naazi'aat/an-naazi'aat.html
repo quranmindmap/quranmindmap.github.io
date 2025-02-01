@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah an-naaziaat</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah an-naaziaat</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat an-Nazi'at))
+                Divine Oaths and Their Significance
+                    (1-5: Oaths sworn by the angels who extract souls, and carry out divine commands)
+              The Day of Resurrection
+                    (6-9: The events that will occur on that day)
+                   (6: The earth will be shaken and the first blast of the Trumpet)
+                    (7-8: It will be followed by the second blast, and hearts will be pounding)
+                The Fate of the Disbelievers
+                 (10-14: The disbelievers will reject the resurrection, and ask when the hour will occur)
+                    (21-23:  Pharaoh rejected the signs of Moosa and disobeyed Allah)
+                (25-26: Allah seizes the disbelievers for their sin, for he is the most strong and powerful)
+              The Story of Moosa
+                   (15-20: The story of Moosa being called to prophethood and shown great signs)
+                   (17-21: Moosa was sent to pharaoh to enjoin belief in Allah and good conduct)
+              Divine Power and Might
+                (27-33:  Allah has created the universe, the earth, and all life, and sustains it)
+                (27-33: Allah controls all creation)
+              The Inevitability of Reckoning
+                   (27-37: Allah has the power to recreate mankind, and all deeds will be made apparent)
+                  (34-37: Those who deny the Truth will experience their punishment on that day)
+                (38-41: Those who reject guidance will be punished severely)
+                  (38-41: They will face punishment for having preferred this life and for rejecting truth)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat an-Nazi'at] --> B(1-5: Divine Oaths and Their Significance);
+        A --> C(6-14, 21-23, 25-26: The Day of Resurrection);
+	    A --> D(15-20: The Story of Moosa);
+	    A --> E(27-33: Divine Power and Might);
+        A --> F(27-41: The Inevitability of Reckoning);
+
+        B --> B1(Oaths sworn by the angels who extract souls, and carry out divine commands);
+        
+      C --> C1(The events that will occur on that day);
+	   C --> C2(The disbelievers will reject the resurrection, and ask when the hour will occur);
+        C --> C3(The arrogance of Pharaoh, his rejection, and his punishment);
+	    C --> C4(Allah seizes the disbelievers for their sin, for he is the most strong and powerful)
+
+     D --> D1(Moosa was called to prophethood and shown great signs);
+     D --> D2(Moosa was sent to pharaoh to enjoin belief in Allah and good conduct);
+    
+       E --> E1(Allah has created the universe, the earth, and all life, and sustains it);
+        E --> E2(Allah controls all creation);
+      F --> F1(All deeds will be made apparent);
+        F --> F2(Allah will warn and punish those who transgress the truth);
+         
+    
+      </div>
+    <script src="an-naaziaat.js"></script>
+</body>
+</html>

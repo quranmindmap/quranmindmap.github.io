@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-Qamar</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-Qamar</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Qamar))
+                The Imminence of the Hour
+                    (1: The Hour has drawn nigh, and the moon has split)
+                 The Disbelievers' Rejection and Doom
+                     (2: The disbelievers deny the truth and consider the message to be magic)
+                     (3: They follow their desires)
+                      (4-8: Allah has sent down stories as a warning, but it has no effect)
+                    (4: The punishment of hell and divine retribution are a result of their disbelief)
+                The Messengers
+                    (8-17: Examples of those who rejected the Messengers and were destroyed)
+                    (9: Nooh’s people)
+                    (18-22: Ad)
+                    (23-32: Thamood)
+                   (33-40: Loot’s people)
+                   (41-55: Pharaoh)
+              Allah's Power and Warnings
+                    (41-55: Allah's Power over His creation and His warnings)
+                    (1-5: Allah has shown signs and the moon has split)
+               The Reality of the Hereafter
+                   (41-55: The Day of Judgement and the fate of those who disbelieved)
+                    (53-55: The end of the disbelievers in hell)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Qamar] --> B(1: The Imminence of the Hour);
+        A --> C(2-8, 17-22, 23-55: The Disbelievers' Rejection and Doom);
+      A --> D(8-22, 23-55: The Messengers);
+      A --> E(41-55: Allah's Power and Warnings);
+        A --> F(41-55: The Reality of the Hereafter);
+        
+        B --> B1(The Hour has drawn nigh, and the moon has split);
+        
+         C --> C1(The disbelievers deny the truth and consider the message to be magic);
+          C --> C2(They follow their desires);
+        C --> C3(Allah has sent down stories as a warning, but it has no effect);
+		C --> C4(The punishment of hell and divine retribution are a result of their disbelief);
+	  
+       D --> D1(Examples of those who rejected the Messengers and were destroyed);
+        D --> D2(Nooh’s people);
+        D --> D3(Ad);
+        D --> D4(Thamood);
+        D --> D5(Loot’s people);
+         D --> D6(Pharaoh);
+       E --> E1(Allah's Power over His creation and His warnings);
+         E --> E2(Allah has shown signs and the moon has split);
+
+        F --> F1(The Day of Judgement and the fate of those who disbelieved);
+         F --> F2(The end of the disbelievers in hell);
+         
+    
+      </div>
+    <script src="al-qamar.js"></script>
+</body>
+</html>

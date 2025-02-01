@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Masad</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah  Al-Masad</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Masad))
+                The Fate of Abu Lahab
+                    (1: May the hands of Abu Lahab perish, and may he perish!)
+                    (2: His wealth and gains will not avail him)
+                    (3: He will burn in a blazing fire)
+               The Fate of his Wife
+                   (4: and so will his wife, the carrier of firewood)
+                     (5: On her neck will be a rope of palm fibers)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Masad] --> B(1-3: The Fate of Abu Lahab);
+        A --> C(4-5: The Fate of his Wife);
+    
+        B --> B1(May the hands of Abu Lahab perish, and may he perish!);
+       B --> B2(His wealth and gains will not avail him);
+	   B --> B3(He will burn in a blazing fire);
+
+       C --> C1(and so will his wife, the carrier of firewood);
+       C --> C2(On her neck will be a rope of palm fibers);
+         
+    
+      </div>
+    <script src="al-masad.js"></script>
+</body>
+</html>

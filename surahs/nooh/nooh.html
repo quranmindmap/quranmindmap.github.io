@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Nuh</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Nuh</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat Nooh))
+                The Mission and Message of Nooh
+                    (1-4: Nooh was sent as a clear warner to his people)
+                    (3: He called them to worship Allah and obey him)
+                The Rejection of His People
+                   (5-6: Nooh's people persisted in their disbelief)
+                    (7: They reject his call)
+                    (7: They try to avoid hearing the message)
+                Nooh's Supplication and Allah's Response
+                     (26: The nature of the disbelievers that made Nooh pray to Allah to destroy them)
+                   (27: If they are left to live, they will do nothing but mislead)
+                   (28: A Supplication to Allah for forgiveness)
+                Allah's Power and Mercy
+                  (10-12: Allah’s abundant blessings and promises for those who believe)
+                   (17-20: Allah is the One Who created mankind and the earth and can bring about the resurrection)
+             The Consequences of Disbelief
+                  (25: Those who disbelieved will be punished)
+                  (27: The disbelievers will only produce evil offspring)
+              The Importance of Divine Revelation
+                  (1-4:  Allah sent Nooh as a clear warner)
+                  (21-24: Nooh is truthful)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat Nooh] --> B(1-4: The Mission and Message of Nooh);
+        A --> C(5-7, 21-24: The Rejection of His People);
+        A --> D(26-28: Nooh's Supplication and Allah's Response);
+	   A --> E(10-12, 17-20: Allah's Power and Mercy);
+        A --> F(25, 27: The Consequences of Disbelief);
+       A --> G(1-4, 21-24: The Importance of Divine Revelation);
+
+      B --> B1(Nooh was sent as a clear warner to his people);
+      B --> B2(He called them to worship Allah and obey him);
+
+         C --> C1(Nooh's people persisted in their disbelief);
+        C --> C2(They reject his call);
+        C --> C3(They try to avoid hearing the message);
+
+        D --> D1(The nature of the disbelievers that made Nooh pray to Allah to destroy them);
+	 D --> D2(If they are left to live, they will do nothing but mislead);
+       D --> D3(A supplication to Allah for forgiveness);
+
+     E --> E1(Allah’s abundant blessings and promises for those who believe);
+        E --> E2(Allah is the One Who created mankind and the earth and can bring about the resurrection);
+       
+       F --> F1(Those who disbelieved will be punished);
+        F --> F2(The disbelievers will only produce evil offspring);
+   
+     G --> G1(Allah sent Nooh as a clear warner);
+       G --> G2(Nooh is truthful);
+         
+    
+      </div>
+    <script src="nooh.js"></script>
+</body>
+</html>

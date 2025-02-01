@@ -1,0 +1,119 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #808080; /* Dark gray background */
+    color: #eee; /* Light text color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #e0e0e0; /* Light gray for better contrast */
+    margin-bottom: 30px;
+    font-size: 2.5rem; /* Increased font size */
+    font-weight: 500; /* Semi-bold font weight */
+    letter-spacing: 1px; /* Slight letter spacing for readability */
+}
+
+.language-buttons {
+    margin-bottom: 20px;
+}
+
+.language-buttons button {
+    background-color: #6200ea; /* Material deep purple */
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+    font-weight: 500;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2); /* Material Design shadow */
+}
+
+.language-buttons button:hover {
+    background-color: #5500b8; /* Darker purple on hover */
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2); /* Elevated shadow on hover */
+}
+
+.surah-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.surah-item {
+    background-color: #616161; /* Slightly lighter gray */
+    color: #eee;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* More pronounced shadow */
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.surah-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+}
+
+.surah-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #e0e0e0; /* Light gray text */
+}
+
+.surah-item p {
+    color: #bdbdbd; /* Slightly lighter text */
+    font-size: 0.9rem;
+}
+
+.surah-number {
+    font-weight: bold;
+    color: #757575; /* Light blue */
+    margin-bottom: 5px;
+}
+
+.surah-name {
+    font-size: 1.1rem;
+    color: #90caf9; /* Light blue */
+}
+
+.surah-arabic-name {
+    font-size: 1rem;
+    color: #bdbdbd; /* Light gray */
+    margin-top: 5px;
+}
+
+/* Tooltip Styles */
+.tooltip {
+    position: absolute;
+    background-color: #616161;
+    color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+    display: none;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.tooltip-name,
+.tooltip-number,
+.tooltip-type,
+.tooltip-translation,
+.tooltip-ayahs {
+    display: block;
+    text-align: left;
+}

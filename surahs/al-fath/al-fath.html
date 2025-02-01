@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Fath</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Fath</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Fath))
+                Divine Victory and Its Significance
+                    (1-3: The Treaty of Hudaybiyah as a clear victory)
+                    (4-6: Allah's power and control)
+                Blessings Upon the Believers
+                    (4-6: Allah bestows reassurance)
+                   (10-17: Allah bestows favor and glad tidings upon the believers)
+                  (18-21: Allah is pleased with the believers and is preparing great reward for them)
+              Guidance and Divine Law
+                   (23: Allah's way of dealing with disbelievers is inevitable)
+                  (24: The Messenger is to convey the message clearly)
+                   (27-28: The vision of the Prophet is true, Allah will fulfil His promise)
+              The Characteristics of the Believers
+                 (10-17: They are truthful in their pledge to Allah and the Messenger)
+                  (21: They are steadfast and strong and put their trust in Allah)
+                 (28: They are compassionate and kind to one another, but harsh on the disbelievers)
+                 (29: They are humble and righteous in their worship and in their character)
+              Warning and Promise
+                 (10-17: Allah's promise to reward them for their dedication and effort)
+                 (18-26: Those who are treacherous will be punished and face dire consequences)
+                (27-29: Allah's promise that the Messenger and the believers will be victorious)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Soorat al-Fath] --> B(1-6: Divine Victory and Its Significance);
+        A --> C(4-21: Blessings Upon the Believers);
+        A --> D(23-28: Guidance and Divine Law);
+        A --> E(10-29: The Characteristics of the Believers);
+        A --> F(10-26, 27-29: Warning and Promise);
+
+        B --> B1(The Treaty of Hudaybiyah as a clear victory);
+        B --> B2(Allah's power and control);
+    
+        C --> C1(Allah bestows reassurance);
+        C --> C2(Allah bestows favor and glad tidings upon the believers);
+        C --> C3(Allah is pleased with the believers and is preparing great reward for them);
+   
+        D --> D1(Allah's way of dealing with disbelievers is inevitable);
+        D --> D2(The Messenger is to convey the message clearly);
+        D --> D3(The vision of the Prophet is true, Allah will fulfil His promise);
+  
+        E --> E1(They are truthful in their pledge to Allah and the Messenger);
+      E --> E2(They are steadfast and strong and put their trust in Allah);
+     E --> E3(They are compassionate and kind to one another, but harsh on the disbelievers);
+      E --> E4(They are humble and righteous in their worship and in their character);
+
+     F --> F1(Allah's promise to reward them for their dedication and effort);
+      F --> F2(Those who are treacherous will be punished and face dire consequences);
+      F --> F3(Allah's promise that the Messenger and the believers will be victorious);
+    
+         
+    
+      </div>
+    <script src="al-fath.js"></script>
+</body>
+</html>

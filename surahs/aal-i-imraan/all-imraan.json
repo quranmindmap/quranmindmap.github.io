@@ -1,0 +1,75 @@
+{
+    "name": "Surah Al-'Imran",
+    "children": [
+      {
+        "name": "Confirmation of Previous Scriptures",
+        "children": [
+          { "name": "Torah" },
+          { "name": "Gospel" },
+          { "name": "Quran as Final Revelation" }
+        ]
+      },
+      {
+        "name": "Oneness of God (Tawhid)",
+        "children": [
+          { "name": "Rejection of Polytheism" },
+          { "name": "No Partners with God" }
+        ]
+      },
+      {
+        "name": "Jesus and Mary",
+        "children": [
+          { "name": "Jesus as a Prophet" },
+          { "name": "Refutation of Trinity" },
+          { "name": "Mary's Piety and Status" },
+          { "name": "Family of Imran" }
+        ]
+      },
+      {
+        "name": "People of the Book (Ahl al-Kitab)",
+        "children": [
+          { "name": "Call to Islam" },
+          { "name": "Highlights of Positive and Negative Aspects" },
+          { "name": "Debates and Dialogues" }
+        ]
+      },
+      {
+        "name": "Battles of Badr and Uhud",
+        "children": [
+          { "name": "Lessons on Faith" },
+          { "name": "Importance of Obedience" },
+          { "name": "Consequences of Mistakes" },
+          { "name": "Patience and Perseverance" }
+        ]
+      },
+      {
+        "name": "Steadfastness in Faith",
+        "children": [
+          { "name": "Patience in Adversity" },
+          { "name": "Trust in God's Plan" }
+        ]
+      },
+      {
+        "name": "Hypocrisy",
+        "children": [
+          { "name": "Characteristics of Hypocrites" },
+          { "name": "Warnings against Hypocrisy" }
+        ]
+      },
+      {
+        "name": "Importance of Unity",
+        "children": [
+          { "name": "Avoiding Division" },
+          { "name": "Brotherhood among Muslims" }
+        ]
+      },
+      {
+        "name": "Piety and Righteousness",
+        "children": [
+          { "name": "Taqwa (God-consciousness)" },
+          { "name": "Righteous Deeds" },
+          { "name": "Seeking God's Pleasure" }
+        ]
+      }
+    ]
+  }

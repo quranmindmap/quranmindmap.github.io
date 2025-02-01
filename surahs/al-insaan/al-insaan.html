@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-insan</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-insan</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Insân))
+        The Creation of Man
+            (1-3: Creation of man from a mingled drop of fluid)
+           (2-4: Allah bestows upon man hearing, sight and sent Messengers to show the way)
+        The Two Paths and Their Outcomes
+           (3: Man can choose to be grateful or ungrateful)
+           (5: The disbelievers are those who are in the blazing fire)
+          (4-10: Description of Paradise and its blessings)
+      The Nature of the Righteous
+           (5-10: The righteous will drink from a cup mixed with camphor)
+            (11-22: Description of the righteous and how they have acted)
+        Divine Blessings and Guidance
+         (13: The people of Paradise will be reclining on couches and will have many blessings)
+         (14-21: The people of paradise are promised many blessings)
+      The Rewards of the Righteous
+        (19-20: Servants will circle them, and they will see great beauty in Paradise)
+        (11-21: They will receive a reward from Allah, which includes bliss and delight)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Insân] --> B(1-4: The Creation of Man);
+        A --> C(3-10: The Two Paths and Their Outcomes);
+        A --> D(5-21: The Nature of the Righteous);
+        A --> E(11-31: Divine Blessings and Guidance);
+        A --> F(19-21, 25-26: The Rewards of the Righteous);
+
+        B --> B1(Creation of man from a mingled drop of fluid);
+        B --> B2(Allah bestows upon man hearing, sight and sent Messengers to show the way);
+
+        C --> C1(Man can choose to be grateful or ungrateful);
+        C --> C2(The disbelievers are those who are in the blazing fire);
+        C --> C3(Description of Paradise and its blessings);
+
+       D --> D1(The righteous will drink from a cup mixed with camphor);
+        D --> D2(Description of the righteous and how they have acted);
+      
+      E --> E1(Allah gives many blessings to mankind);
+      E --> E2(Allah's power is seen through His creation and the revelation He sends);
+
+       F --> F1(Servants will circle them, and they will see great beauty in Paradise);
+        F --> F2(They will receive a reward from Allah, which includes bliss and delight);
+         
+    
+      </div>
+    <script src="al-insaan.js"></script>
+</body>
+</html>

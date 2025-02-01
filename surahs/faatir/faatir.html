@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Faatir</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Faatir</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat Fâțir))
+              Divine Power and Creation
+                Allah's Attributes and Authority
+                Angels as Messengers
+                Divine Power in Creation
+              Deeds and Consequences
+                  Good deeds and the reward
+                  Bad Deeds and their Punishment
+              Refutation of Polytheism
+                  Rejection of intercessors and false gods
+                  Divine omniscience
+                  The state of the disbelievers
+              Signs and Blessings
+                  Allah's power in creation
+                   Allah's mercy, grace and kindness to His righteous slaves
+                  Perfect wisdom in His rulings
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah Fatir] --> B(Verses 1-11:  Introduction, Divine Power and Creation);
+        A --> C(Verses 12-18:  Contrast between those who do good and those who do evil );
+        A --> D(Verses 19-26: Refutation of Polytheism, Divine Omniscience, The Disbelievers and Their Doom);
+         A --> E(Verses 27-35:  Allah’s signs and power in creation, His Perfect Attributes, and Reward);
+            B --> B1(Allah's perfect attributes and authority over creation);
+            B --> B2(Angels as Messengers and Agents of Divine Will);
+            B --> B3(Divine power in creation and bestowal of blessings);
+            C --> C1(The nature of Good Deeds, and the reward);
+            C --> C2(The nature of Bad Deeds, and its punishment);
+             D --> D1(Rejection of Ascription of Partners to Allah);
+             D --> D2(Divine Omniscience and the knowledge of what is done openly and in secret);
+            D --> D3(The state of those who follow their whims and desires);
+            E --> E1(Allah’s Perfect Might and Attributes in His creation);
+            E --> E2(His Mercy, grace and kindness towards His righteous Slaves);
+            E --> E3(His Perfect wisdom in his rulings);
+         
+    
+      </div>
+    <script src="faatir.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive PNG Display</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .image-container {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        .image-container img {
+            width: 150px;
+            height: auto;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+        .image-container img.active {
+            width: 500px;
+            transition: width 0.3s ease-in-out;
+        }
+        .mermaid {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            width: 80%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="mermaid">
+        mindmap
+            root((Al-Baqarah))
+              Core Beliefs
+                Belief in the Unseen
+                Belief in the Qur'an
+                Belief in Previous Revelations
+                Belief in the Hereafter
+              Acts of Worship
+                Prayer
+                Zakat
+                Fasting
+                Hajj and Umrah
+              Stories of Prophets
+                Adam
+                Ibraheem
+                Moosa
+                Eesa
+              Laws and Rulings
+                Dietary Laws
+                Financial Transactions
+                  Riba (Interest)
+                  Debt
+                  Charity
+                Family Law
+                  Marriage
+                  Divorce
+                  Inheritance
+                Social Conduct
+                  Justice
+                  Kindness
+                  Honesty
+                Jihad
+                  Rules of Engagement
+                  When Permissible
+              Hypocrisy
+                Characteristics of Hypocrites
+                Consequences of Hypocrisy
+              Disbelief
+                Characteristics of Disbelievers
+                Consequences of Disbelief
+              Warnings and Admonitions
+                Against Disobedience
+                Against Following Shaytan
+              Reminders
+                Allah's Power and Knowledge
+                Allah's Mercy and Forgiveness
+                The Day of Judgement
+              Tests and Trials
+                Purpose of Trials
+                Patience and Perseverance
+                Examples of Trials
+              Ultimate Goal
+                Attaining Allah's Pleasure
+                Entering Paradise
+    </div>
+    
+    <div class="image-container">
+        <img src="holy quran_0061.webp" alt="Image 1" onclick="toggleSize(this)">
+        <img src="holy quran_0062.webp" alt="Image 2" onclick="toggleSize(this)">
+        <img src="holy quran_0063.webp" alt="Image 3" onclick="toggleSize(this)">
+    </div>
+    
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+        function toggleSize(img) {
+            document.querySelectorAll('.image-container img').forEach(image => {
+                if (image !== img) {
+                    image.classList.remove('active');
+                }
+            });
+            img.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

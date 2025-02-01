@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Abasa</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Abasa</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat 'Abasa))
+       The Prophet's Conduct and Divine Rebuke
+            (1-10: Allah rebukes the Prophet for turning away from the blind man for the sake of the rich)
+        The Nature of Guidance
+           (4: The importance of the Qur'an)
+        (5-10: The importance of proper heed and seeking guidance)
+      The Choice Before Humanity
+            (11-16: The nature of those who seek knowledge and guidance, and the fate of those who turn away)
+       (17-32:  Descriptions of Allah’s creation and the provisions for humankind)
+      (33-42: The events of the Day of Judgment and each persons ultimate destination)
+       The Aftermath of Judgement
+           (34-37: Families will be separated on that day; each will be concerned only with their own state)
+        (42: The different fates that await mankind on the Day of Judgement)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat 'Abasa] --> B(1-10: The Prophet's Conduct and Divine Rebuke);
+        A --> C(4-10, 11-16: The Nature of Guidance);
+        A --> D(11-32: The Choice Before Humanity);
+        A --> E(33-42: The Aftermath of Judgement);
+    
+        B --> B1(The Prophet is rebuked for turning away from the blind man for the sake of the rich);
+
+        C --> C1(The importance of the Qur'an);
+        C --> C2(The importance of proper heed and seeking guidance);
+    
+        D --> D1(The nature of those who seek knowledge and guidance, and the fate of those who turn away);
+       D --> D2(Allah’s creation and the provisions for mankind);
+ 
+       E --> E1(Families will be separated on that day; each will be concerned only with their own state);
+      E --> E2(The different fates that await mankind);
+         
+    
+      </div>
+    <script src="abasa.js"></script>
+</body>
+</html>

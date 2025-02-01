@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah an-Naba</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah an-Naba</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat an-Naba'))
+        The Great News and Questioning
+            (1-3: What are they asking each other about?)
+            (1-3: About the great tidings, about which they differ.)
+       Allah's Power and Signs in Creation
+           (6-16:  The earth, mountains, and their benefits)
+           (7:  The mountains are like pegs holding the earth)
+          (8:  Creation of mankind in pairs)
+           (9:  The need for sleep and night as a cover)
+           (10-11: The day as a means of livelihood)
+           (12: The seven firmaments)
+         (13: A blazing lamp)
+          (14-16: The source of rain which brings forth crops)
+        The Day of Judgement and Its Realities
+            (17-18: The Day of Judgement has a specific time)
+          (18-19: The blast on the trumpet and the gathering of people)
+          (19: Description of the heaven being opened)
+           (20: The description of the mountains)
+       The Destinies of the Righteous and the Transgressors
+            (21-30: Descriptions of hell and the torment therein, and the fate of transgressors)
+         (31-36: Descriptions of paradise, and the blessings of the righteous, as well as a promise of triumph)
+      The warnings and exhortations
+         (37: It is not proper for the believers to put on the attributes of the arrogant, it is also for Allah’s slaves to learn of the great status of Allah)
+        (38:  The day of reckoning will be established when all souls stand before Allah)
+          (38: All creation will be silent on the Day of Judgment)
+        (39-40: Allah's warnings to those who deny the truth, about the severity of the consequences)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat an-Naba'] --> B(1-3: The Great News and Questioning);
+        A --> C(6-16: Allah's Power and Signs in Creation);
+        A --> D(17-20: The Day of Judgement and Its Realities);
+        A --> E(21-36: The Destinies of the Righteous and the Transgressors);
+      A --> F(37-40: The warnings and exhortations);
+
+        B --> B1(What are they asking each other about?);
+         B --> B2(About the great tidings, about which they differ.);
+
+         C --> C1(The earth, mountains, and their benefits);
+          C --> C2(The mountains are like pegs holding the earth);
+          C --> C3(Creation of mankind in pairs);
+        C --> C4(The need for sleep and night as a cover);
+        C --> C5(The day as a means of livelihood);
+    	C --> C6(The seven firmaments);
+        C --> C7(A blazing lamp);
+        C --> C8(The source of rain which brings forth crops);
+
+         D --> D1(The Day of Judgement has a specific time);
+         D --> D2(The blast on the trumpet and the gathering of people);
+       D --> D3(The heaven will be opened and the mountains will vanish);
+ 
+     E --> E1(Descriptions of hell and the torment therein, and the fate of transgressors);
+         E --> E2(Descriptions of paradise, and the blessings of the righteous);
+       
+      F --> F1(It is not proper for the believers to put on the attributes of the arrogant, it is also for Allah’s slaves to learn of the great status of Allah);
+      F --> F2(On the Day of Reckoning all creation will be silent);
+         F --> F3(Allah warns of the terrible punishment that awaits the deniers);
+    
+      </div>
+    <script src="an-naba.js"></script>
+</body>
+</html>

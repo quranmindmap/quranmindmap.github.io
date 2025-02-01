@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Az-Zalzala</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Az-Zalzala</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat az-Zalzalah))
+        The Great Earthquake
+            (1-3:  The earth will be shaken with a cataclysmic earthquake)
+            (2: The earth will bring forth its burdens)
+            (3: People will be in utter shock and dismay)
+        The Revelation of Deeds
+             (4: The earth will testify to the deeds of people)
+            (5: Allah will command the earth to speak)
+       The Divine Recompense
+             (6-8: People will be shown their good and bad deeds, with justice)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat az-Zalzalah] --> B(1-3: The Great Earthquake);
+        A --> C(4-5: The Revelation of Deeds);
+        A --> D(6-8: The Divine Recompense);
+    
+        B --> B1(The earth will be shaken with a cataclysmic earthquake);
+       B --> B2(The earth will bring forth its burdens);
+       B --> B3(People will be in utter shock and dismay);
+         C --> C1(The earth will testify to the deeds of people);
+        C --> C2(Allah will command the earth to speak);
+      D --> D1(People will be shown their good and bad deeds, with justice);
+         
+    
+      </div>
+    <script src="az-zalzala.js"></script>
+</body>
+</html>

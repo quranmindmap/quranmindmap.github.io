@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Qadr</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Qadr</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Qadr))
+        Divine Revelation and Its Time
+            (1: The Qur'an was sent down on the Night of Decree)
+        The Significance of Laylat al-Qadr
+          (2:  What is the Night of Decree?)
+          (3:  The Night of Decree is better than a thousand months)
+      The Descending of the Angels
+            (4: The angels and the spirit descend by Allah's leave with all decrees)
+            (5: That Night is peace and blessing until the break of dawn)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Qadr] --> B(1: Divine Revelation and Its Time);
+        A --> C(2-3: The Significance of Laylat al-Qadr);
+        A --> D(4-5: The Descending of the Angels);
+      
+        B --> B1(The Qur'an was sent down on the Night of Decree);
+       
+        C --> C1(What is the Night of Decree?);
+        C --> C2(The Night of Decree is better than a thousand months);
+
+       D --> D1(The angels and the spirit descend by Allah's leave with all decrees);
+         D --> D2(That Night is peace and blessing until the break of dawn);
+         
+    
+      </div>
+    <script src="al-qadr.js"></script>
+</body>
+</html>

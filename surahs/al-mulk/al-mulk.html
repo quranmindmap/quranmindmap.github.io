@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-mulk</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-mulk</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Mulk))
+         Divine Sovereignty and Power
+            (1: Allah has power over all things)
+            (2: Allah is the One Who controls life and death and will test you)
+            (3-4: Allah's perfect creation of the seven heavens)
+           (5: Allah has made the sky as a means to frighten and punish the devils)
+         Consequences for the Disbelievers
+            (6-11: The fate of those who reject Allah and His Messengers and their terrible state)
+           (6: The hellfire is the ultimate destination)
+            (7: The hellfire will be roaring and near bursting)
+            (10: They will regret rejecting the messengers)
+      Allah's Knowledge and Power
+           (13-14: Allah has knowledge of all things; nothing is hidden from Him)
+           (14: Allah controls all matters of provision)
+        The Believers' Response
+           (15: Seek provision by traveling through the land)
+            (15: Recognize the signs of Allah in all that is around)
+        (19: Recognize the might of the birds)
+         (20-21: Recognize Allah’s power that nothing can withhold and His great attributes and kindness)
+          (23-24: Be reminded of Allah’s power and that all things are from Him)
+           (27-30: Be reminded of the coming judgement)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Mulk] --> B(1-5: Divine Sovereignty and Power);
+        A --> C(6-11, 22-24: Consequences for the Disbelievers);
+        A --> D(13-21: Allah's Knowledge and Power);
+        A --> E(15-21: The Believers' Response);
+
+        B --> B1(Allah has power over all things);
+        B --> B2(Allah is the One Who controls life and death and will test you);
+        B --> B3(Allah's perfect creation of the seven heavens);
+         B --> B4(Allah has made the sky as a means to frighten and punish the devils);
+        
+         C --> C1(The hellfire is the ultimate destination);
+        C --> C2(The hellfire will be roaring and near bursting);
+        C --> C3(They will regret rejecting the messengers);
+         C --> C4(The disbelievers will be punished for their actions);
+        
+        D --> D1(Allah has knowledge of all things, nothing is hidden from Him);
+        D --> D2(Allah controls provision and creation);
+         
+      E --> E1(Seek provision by traveling through the land);
+        E --> E2(Recognize the signs of Allah in all that is around);
+         E --> E3(Recognize Allah’s power and his mercy and attributes);
+         
+    
+      </div>
+    <script src="al-mulk.js"></script>
+</body>
+</html>

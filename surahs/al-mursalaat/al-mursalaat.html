@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-mursalat</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-mursalat</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Mursalat))
+                Divine Oaths and Their Purpose
+                    (1-7:  Oaths by those sent forth, the storms, the scatterers, and the messengers)
+                The Inevitable Day of Judgement
+                   (7-15: The Day of Judgement will occur, with a descriptions of its horrors and torment)
+                (16-19:  The destruction of those who disbelieved)
+                (19-20: Woe to those who reject the truth)
+                   (20-28: The creation of man and that their destination is to return to Allah)
+                  (38-40: Allah's power over creation)
+              The Warning to the Deniers
+                   (35-37:  Those who reject the message will have no respite on that day)
+                (31-35: The fate of those who deny)
+               The Rewards of the Righteous
+                  (41-45: The blessings in paradise for those who have taqwa)
+                  (46-50: The delights of paradise for the righteous)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Mursalat] --> B(1-7: Divine Oaths and Their Purpose);
+         A --> C(7-37: The Inevitable Day of Judgement);
+        A --> D(47-50: The Rewards of the Righteous);
+        A --> E(1-7, 38-40: Allah's Power and Warnings);
+
+        B --> B1(Oaths by those sent forth, the storms, the scatterers, and the messengers);
+       B --> B2(The purpose of this oath is that Allah’s promises are true);
+	
+      C --> C1(The Day of Judgement will occur, with a description of its horrors and torment);
+	  C --> C2(The destruction of those who disbelieved);
+        C --> C3(Those who reject the truth will be punished on that day);
+        
+       D --> D1(The righteous will be in gardens of delight);
+       D --> D2(The rewards of the righteous are unending);
+  
+        E --> E1(Allah's Power over His creation and all things);
+         E --> E2(Allah is all-powerful and His decrees will come to pass);
+	  
+         
+    
+      </div>
+    <script src="al-mursalaat.js"></script>
+</body>
+</html>

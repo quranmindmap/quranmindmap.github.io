@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-qiyaama</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-qiyaama</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Qiyâmah))
+               Divine Oath and Human Responsibility
+                  (1-2: The oath by the Day of Resurrection and the self-reproaching soul)
+                (3-4:  Humans will be recreated from the smallest origins)
+                (5: Humans desire to persist in their evil)
+                (6: The disbelievers question when the Day of Resurrection will be)
+              The Inevitability of the Day of Judgment
+                (7-10: The events that occur in the universe on the Day of Resurrection)
+                (11-12:  There will be no refuge except in Allah)
+                (13-15: On that day, man will be reminded of his deeds)
+               The Divisions on the Day of Resurrection
+                (19: The Qur'an is easy to remember)
+                   (16-19: The Qur'an must be conveyed without fear)
+                   (20: Those who love this world have a wrong destination)
+               The Rewards and Punishments
+                  (21:  Some faces will be radiant, gazing upon their Lord)
+                   (21: Some faces will be gloomy, expecting a great punishment)
+                    (26-35: How man will be made to face the truth during death and resurrection)
+                   (23-30: What prompts belief or disbelief is divine will, for Allah is the one who controls)
+                   (31-35:  The need to seek forgiveness and submit to Allah)
+                  (36-40: Allah's ability to recreate man and the power of Allah over all)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Qiyâmah] --> B(1-4: Divine Oath and Human Responsibility);
+        A --> C(5-15: The Inevitability of the Day of Judgment);
+        A --> D(16-20, 23-30: The Divisions on the Day of Resurrection);
+	    A --> E(21-25, 31-40: The Rewards and Punishments);
+        A --> F(17, 31-40: Divine Will and Purpose);
+        
+        B --> B1(The oath by the Day of Resurrection and the self-reproaching soul);
+        B --> B2(Humans will be recreated from the smallest origins);
+       B --> B3(Humans desire to persist in their evil);
+       B --> B4(The disbelievers question when the Day of Resurrection will be);
+
+         C --> C1(The events that occur in the universe on the Day of Resurrection);
+        C --> C2(There will be no refuge except in Allah);
+        C --> C3(On that day, man will be reminded of his deeds);
+        
+      D --> D1(The Qur'an is easy to remember);
+        D --> D2(The Qur'an must be conveyed without fear);
+        
+      E --> E1(Some faces will be radiant, gazing upon their Lord);
+         E --> E2(Some faces will be gloomy, expecting a great punishment);
+         E --> E3(Man will be made to face the truth during death and resurrection);
+    
+      F --> F1(What prompts belief or disbelief is divine will);
+        F --> F2(The need to seek forgiveness and submit to Allah);
+        F --> F3(Allah has power and controls all things and will bring them back to life for requital)
+        
+         
+    
+      </div>
+    <script src="al-qiyaama.js"></script>
+</body>
+</html>

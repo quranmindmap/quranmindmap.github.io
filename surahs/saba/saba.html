@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah saba</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Saba </h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah Saba'))
+                Allah's Attributes
+                    Sovereignty and Power
+                    Vast Knowledge
+                    Perfect Wisdom
+                 Story of Dawud and Suleman
+                     Knowledge, wisdom, power as Favors
+                    Story of the people of Saba'
+                        Blessings, turn away, punishment as a sign
+                 Refutation of Polytheism
+                     Invalidity of intercessors
+                     Folly of rejecting Allah's Messengers
+                 Day of Judgement
+                      Disbelievers' excuses and fates
+                      Believers' acknowledgement of truth and their Rewards
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah Saba'] --> B(Verses 1-9: Allah's Attributes, Knowledge, and Power);
+        A --> C(Verses 10-21: Favours upon David and Solomon, and the Example of the People of Saba’);
+        A --> D(Verses 22-30: The Truth About Idols and Polytheism and Divine Rejection);
+        A --> E(Verses 31-54:  Disbelievers' Arguments and Justifications on Judgement Day, The Response of those with Knowledge and the Inevitability of the Resurrection);
+    
+            B --> B1(Allah's Sovereignty and Power);
+             B --> B2(Allah's Vast Knowledge and Wisdom);
+            C --> C1(Favors of Knowledge, wisdom, and power);
+            C --> C2(The story of Saba' as a sign, they were given blessings and then they turned away );
+            D --> D1(The invalidity of taking intercessors alongside Allah);
+             D --> D2(The folly and error of rejecting Allah's messengers);
+             E --> E1(The disbelievers’ excuses and their fates on the Day of Judgement)
+             E --> E2(The believers’ acknowledgement of Truth, and their Rewards);
+         
+    
+      </div>
+    <script src="saba.js"></script>
+</body>
+</html>

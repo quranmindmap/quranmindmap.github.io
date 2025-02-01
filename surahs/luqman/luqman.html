@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Luqman</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Luqman</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah Luqmân))
+              Introduction
+                  The Qur'an as guidance and healing
+                  Characteristics of the righteous
+              Luqman's Counsel to His Son
+                    The importance of worshipping Allah alone
+                    Ethical Conduct and Proper Behaviour
+              Allah's Blessings & Sovereignty
+                  Allah's dominion over all creation
+                  The perfection of Allah's knowledge
+              Warnings against arrogance and pride
+                     Fear of the Hereafter and its Reckoning
+                     Limitations of Human Knowledge
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah Luqmân] --> B(Verses 1-11: Introduction, the Qur'an as Guidance, and Description of the Believers);
+        A --> C(Verses 12-19: Luqman's Counsel to His Son on Wisdom and Monotheism);
+        A --> D(Verses 20-32: Allah's Blessings and Sovereignty, The Nature of The Worlds, Allah's Knowledge of the Unseen);
+        A --> E(Verses 33-34: Warnings against arrogance and pride, and the limited knowledge of man );
+           B --> B1(The Qur'an as guidance and healing)
+           B --> B2(The characteristics of the righteous)
+    
+        C --> C1(The importance of worshipping Allah alone);
+        C --> C2(Ethical Conduct and Proper Behaviour );
+       D --> D1(Allah's dominion over all creation)
+        D --> D2(The perfection of Allah’s knowledge);
+     E --> E1(Fear of the Hereafter and its Reckoning);
+     E --> E2(Limitations of Human Knowledge);
+         
+    
+      </div>
+    <script src="luqman.js"></script>
+</body>
+</html>

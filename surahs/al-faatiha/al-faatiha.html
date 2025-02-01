@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Fatiha</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Fatiha</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Al-Fatiha))
+              Opening
+                The Most Gracious, the Most Merciful
+              Praise
+                To Allah, Lord of the Worlds
+                The Most Gracious, the Most Merciful
+                Master of the Day of Judgement
+              Worship
+                You alone we worship
+                You alone we ask for help
+              Supplication
+                Guide us to the straight path
+                The path of those You have favored
+                Not of those who have earned Your anger
+                Not of those who have gone astray
+                
+                 
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+     A[Al-Fatiha] --> B(Praise and Gratitude to Allah);
+     A --> C(Guidance);
+     A --> D(Worship and Seeking Help);
+     A --> E(The Straight Path);
+     B --> F(Allah as the Lord of the Worlds);
+     B --> G(Allah's Mercy and Justice);
+     C --> H(Seeking Knowledge of the Right Path);
+     D --> I(Submission to Allah);
+     E --> J(Avoiding the Path of Those Who Incurred Wrath);
+     E --> K(Avoiding the Path of Those Who Went Astray);
+     </div>
+     
+    </div>
+    <script src="al-faatiha.js"></script>
+</body>
+</html>

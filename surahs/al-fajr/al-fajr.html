@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Fajr</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Fajr</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Fajr))
+                Divine Oaths and Their Significance
+                    (1-4: Oaths by the dawn, ten nights, the even and the odd, and the night when it departs)
+                The Fate of Past Nations and the Reminder of Punishment
+                   (5-14: What Allah did to 'Ad, Thamood, and Pharaoh)
+                 (12: Allah has full knowledge of His creation and all their deeds)
+             The Nature of Man
+               (15-20: Man’s actions and his love of worldly things)
+               (15-16: Man is tested by Allah with provision, whether it is abundant or restricted)
+                  (17-18: The need to show gratitude to Allah)
+                  (20: Man’s Love of Wealth and Greed)
+                  (21: The realities of the Day of Reckoning will become clear)
+              The Recompense on the Day of Judgment
+                 (21-26:  Description of the doom of hell and the punishment of the disbelievers)
+                 (27-30: The rewards of the righteous in paradise)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Fajr] --> B(1-5: Divine Oaths and Their Significance);
+        A --> C(6-14: The Fate of Past Nations and the Reminder of Punishment);
+        A --> D(15-20: The Nature of Man);
+        A --> E(21-30: The Recompense on the Day of Judgement);
+    
+       B --> B1(Oaths by the dawn, ten nights, the even and the odd, and the night when it departs);
+        
+       C --> C1(What Allah did to 'Ad, Thamood, and Pharaoh);
+        
+        D --> D1(Man's actions and his love of worldly things);
+         D --> D2(Man is tested by Allah with provision, whether it is abundant or restricted);
+         D --> D3(The need to show gratitude to Allah);
+        D --> D4(Man’s Love of Wealth and Greed);
+        D --> D5(The realities of the Day of Reckoning will become clear);
+
+       E --> E1(Descriptions of the doom of hell);
+      E --> E2(Descriptions of the rewards of the righteous in paradise);
+         
+    
+      </div>
+    <script src="al-fajr.js"></script>
+</body>
+</html>

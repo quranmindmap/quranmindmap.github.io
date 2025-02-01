@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Bayyina</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Bayyina</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Bayyinah))
+               The Necessity of Clear Proof
+                    (1-3: People of the Book and polytheists could not leave their ways until clear proof came to them)
+                  The Nature of the Clear Proof
+                    (2:  A Messenger reciting pages of purification)
+                     (3: The pages contain writings of correctness)
+                 The Purpose of the Clear Proof
+                    (5: The purpose of this message was for people to worship Allah alone, with true faith, and to uphold prayer and zakat)
+               Consequences of Accepting and Rejecting the Truth
+                   (6: Disbelievers will abide in the Fire)
+                  (7-8: Believers will be rewarded in the Gardens of Paradise)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Bayyinah] --> B(1-3: The Necessity of Clear Proof);
+        A --> C(2-3: The Nature of the Clear Proof);
+        A --> D(5: The Purpose of the Clear Proof);
+        A --> E(6-8: Consequences of Accepting and Rejecting the Truth);
+
+        B --> B1(People of the Book and polytheists could not leave their ways until clear proof came to them);
+    
+       C --> C1(A Messenger reciting pages of purification);
+          C --> C2(The pages contain writings of correctness);
+
+         D --> D1(The purpose of this message was for people to worship Allah alone, with true faith, and to uphold prayer and zakat);
+
+       E --> E1(Disbelievers will abide in the Fire);
+        E --> E2(Believers will be rewarded in the Gardens of Paradise);
+         
+    
+      </div>
+    <script src="al-bayyina.js"></script>
+</body>
+</html>

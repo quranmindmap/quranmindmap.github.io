@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah at-takwir</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah at-takwir</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat at-Takweer))
+                The Signs of the Hour
+                    (1-6: The sun will cease to shine, the stars will scatter, the mountains will vanish)
+                    (7: The oceans will boil over)
+                     (7:  People will be sorted into groups)
+                The Testification of Deeds
+                     (10: The records of deeds will be laid open)
+                     (8: The female infant buried alive will be asked of her sins)
+                   (11:  The heavens will be stripped away)
+                The reality of Hell and Paradise
+                    (12:  Hellfire will be ignited)
+                    (13: Paradise will be brought near)
+                 The Qur'an as a True Revelation
+                    (14-18: Each soul will know what it has brought with it, that this is a true message from a noble messenger and not from the devil)
+                    (25-29: The Qur'an is a message from Jibreel and he did not lie in its transmission)
+               Free Will and Accountability
+                   (26:  Where are you heading?)
+                   (27-29: It is a reminder for the world to follow the right path which requires a person to act upon it)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Soorat at-Takweer] --> B(1-7: The Signs of the Hour);
+        A --> C(8-11: The Testification of Deeds);
+        A --> D(12-13: The reality of Hell and Paradise);
+        A --> E(14-29: The Qur'an as a True Revelation);
+        A --> F(26-29: Free Will and Accountability);
+       
+       B --> B1(The sun will cease to shine, the stars will scatter, the mountains will vanish);
+	   B --> B2(The oceans will boil over);
+       B --> B3(People will be sorted into groups);
+
+      C --> C1(The records of deeds will be laid open);
+        C --> C2(The female infant buried alive will be asked of her sins);
+        C --> C3(The heavens will be stripped away);
+	
+      D --> D1(Hellfire will be ignited);
+       D --> D2(Paradise will be brought near);
+        
+      E --> E1(The Qur'an is a message from a noble messenger and not a devil);
+       E --> E2(The Qur'an is the words of Jibreel and he is a truthful messenger)
+    
+	   F --> F1(Where are you heading?);
+       F --> F2(The Qur’an is a reminder and people will be questioned);
+         
+    
+      </div>
+    <script src="at-takwir.js"></script>
+</body>
+</html>

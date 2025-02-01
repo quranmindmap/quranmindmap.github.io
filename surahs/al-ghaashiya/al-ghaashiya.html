@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Ghaashiya</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Ghaashiya</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Ghashiyah))
+        The Overwhelming Event and Its Impact
+            (1: Has there come to you the story of the overwhelming event?)
+          The Different Outcomes on the Day of Judgement
+              (2-7: Some faces will be humiliated and in distress and burn in hell)
+           (8-16: Some faces will be joyful and blessed in paradise)
+      The Nature of Divine Power
+            (17-20:  Allah’s Power over all of Creation)
+        (17-20: The Signs of Allah’s Power and his creation)
+        (21-26: The Prophet's Mission)
+        (27-33:  The severe punishment for disbelievers in hell)
+         (34-36: The people of paradise and their rewards)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Ghashiyah] --> B(1: The Overwhelming Event and Its Impact);
+        A --> C(2-16: The Different Outcomes on the Day of Judgement);
+        A --> D(17-20: Divine Power);
+        A --> E(17-26: The Messengers' Mission and Message);
+         A --> F(27-33: The Warnings);
+         A --> G(34-36: The Rewards);
+    
+        B --> B1(The Inevitable Event will occur, bringing some low and raising others);
+      
+         C --> C1(Some faces will be humiliated and in distress and burn in hell);
+         C --> C2(Some faces will be joyful and blessed in paradise);
+
+        D --> D1(Allah’s power over all of creation);
+    
+        E --> E1(The Messengers were sent to convey a clear message);
+       E --> E2(They will be met with strong resistance);
+  
+        F --> F1(The stern consequences that await disbelievers);
+         F --> F2(The blessings and bliss that the believers have in paradise)
+         
+    
+      </div>
+    <script src="al-ghaashiya.js"></script>
+</body>
+</html>

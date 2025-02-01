@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Ash-Shams</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for SurahAsh-Shams</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat ash-Shams))
+                Divine Oaths and Their Significance
+                    (1-7: Oaths by natural phenomena, Allah’s magnificent creation)
+                    (1-10: Oaths about the human soul, and its ability to choose guidance)
+               Human Choice and Responsibility
+                  (7-10: That Allah inspires the soul with evil and righteousness)
+                  (9-10: Those who purify themselves will succeed, and those who corrupt it will fail)
+              Historical Example and Consequences
+                    (11-15: The story of Thamood and how they rejected their messenger, and destroyed their wealth)
+              Divine Power and Wisdom
+                     (11-15: Allah's power to punish those who are arrogant and disobedient)
+                     (15: That Allah is all seeing and has great wisdom)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat ash-Shams] --> B(1-10: Divine Oaths and Their Significance);
+       A --> C(7-10: Human Choice and Responsibility);
+        A --> D(11-15: Historical Example and Consequences);
+        A --> E(11-15: Divine Power and Wisdom);
+        
+       B --> B1(Oaths by natural phenomena, Allah’s magnificent creation);
+	    B --> B2(Oaths about the human soul, and its ability to choose guidance);
+
+       C --> C1(Allah inspires the soul with evil and righteousness);
+        C --> C2(Those who purify themselves will succeed, and those who corrupt it will fail);
+
+       D --> D1(The story of Thamood and how they rejected their messenger, and destroyed their wealth);
+
+        E --> E1(Allah’s power to punish those who are arrogant and disobedient);
+	     E --> E2(Allah has great wisdom);
+         
+    
+      </div>
+    <script src="ash-shams.js"></script>
+</body>
+</html>

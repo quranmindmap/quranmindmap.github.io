@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Surah An-Nasr</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Surah An-Nasr</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat an-Nasr))
+                Divine Help and Victory
+                   (1:  Allah's help and victory will come to you)
+               The Command to Glorify Allah
+                    (2: The people will accept the religion of Allah in multitudes)
+                (3: Glorify and praise Allah, and seek forgiveness from Him)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat an-Nasr] --> B(1-2: Divine Help and Victory);
+        A --> C(3: The Command to Glorify Allah);
+    
+       B --> B1(Allah's help and victory will come to you);
+       B --> B2(The people will accept the religion of Allah in multitudes);
+
+       C --> C1(Glorify and praise Allah, and seek His forgiveness);
+         
+    
+      </div>
+    <script src="an-nasr.js"></script>
+</body>
+</html>

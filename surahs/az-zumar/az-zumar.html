@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah az-zumar</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah az-zumar</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat az-Zumar))
+                The Book of Revelation
+                    Source of Divine Words
+                    Sincere Devotion
+                Guidance and Misguidance
+                    Devotion to Allah
+                    Misguidance and its consequences
+                The Guided and The Unguided
+                    Purity of Heart
+                    Disbelief
+                The day of judgement
+                  Allah's Power, return, no help for disbelievers
+                     Reward of Believers and punishment of the disbelievers
+                 Turning to Allah
+                    Urging Repentance
+                    Hope in Divine Forgiveness
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Surah az-Zumar] --> B(Verses 1-9: Divine Origin of the Qur'an and Sincere Devotion to Allah);
+    A --> C(Verses 10-21:  Exhortation to Worship Allah, and the different status of those who do and those who do not);
+    A --> D(Verses 22-31:  The state of those who are guided and those who are astray from the truth);
+      A --> E(Verses 32-54: Inevitability of Judgement and consequences of falsehood, mercy towards the believers);
+       A --> F(Verses 55-75:  Call to Repentance, Hope in Divine Forgiveness and the Promise of Paradise and Hell);
+
+        B --> B1(The Qur'an revealed from Allah, the Wise and All-Knowing);
+         B --> B2(Sincere Devotion is due to Allah alone);
+          C --> C1(Devotion to Allah alone leads to Guidance and Success);
+         C --> C2(Misguidance and its Consequences);
+         D --> D1(The condition of the guided and their hearts in purity);
+           D --> D2(The condition of the unguided and their hearts in disbelief);
+      E --> E1(Allah’s power over all and all will return to Him);
+        E --> E2(Those who ascribe partners to Allah will have no helpers or intercessors);
+          F --> F1(Allah’s command to turn to Him and seek His mercy);
+           F --> F2(The reward of the believers and punishment of the disbelievers);
+         
+    
+      </div>
+    <script src="az-zumar.js"></script>
+</body>
+</html>

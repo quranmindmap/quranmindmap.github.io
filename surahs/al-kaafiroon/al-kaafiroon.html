@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Kaafiroon</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Kaafiroon</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Kafiroon))
+                Clear Declaration of Disassociation
+                    (1: A clear address to disbelievers)
+                   (2-3: Disavowal of their worship)
+                    (4-5: Disavowal of their gods and of any worship for them )
+                  (6: The disbelievers to their religion and the Muslims to their religion)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Kafiroon] --> B(1-5: Clear Declaration of Disassociation);
+         A --> C(6: The Disbelievers to their religion and the Muslims to their religion);
+
+        B --> B1(A clear address to disbelievers);
+        B --> B2(Disavowal of their worship);
+         B --> B3(Disavowal of their gods and of any worship for them);
+
+        C --> C1(The disbelievers to their religion and the Muslims to their religion);
+         
+    
+      </div>
+    <script src="al-kaafiroon.js"></script>
+</body>
+</html>

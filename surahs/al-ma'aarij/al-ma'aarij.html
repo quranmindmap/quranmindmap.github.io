@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-ma'arij</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah  al-ma'arij</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Ma'arij))
+        Divine Punishment and Inevitability
+            (1-3:  A Sceptic asks about punishment and Allah controls the routes of ascent)
+           (4: The angels ascend to Allah in a day whose measure is fifty thousand years)
+          (7: The disbelievers regard the punishment as far away, but it is close to Allah)
+           (13-14: Allah knows the secrets and private gatherings)
+           (15-18: On the day of Judgement, the hypocrites will be distressed and wish to ransom themselves)
+
+       Man's Nature and Conduct
+             (19-21: The nature of man is to be fretful and impatient)
+            (21: The believers are aware of the great reward of the hereafter and seek guidance)
+        (22-35: They are steadfast in prayer and are always on guard of their duties and obligations)
+      The Attributes of the Righteous
+            (24: The righteous have a prescribed share for the needy in their wealth)
+             (25: They have a clear understanding of faith and the hereafter)
+              (27-31: The people of truth have a deep fear and respect for Allah and strive to be pleasing to Him)
+      Divine Power and Control
+           (4: Allah has control over everything and His is all that ascends to Him)
+           (30-31: Allah has power over destiny)
+            (38-40: All deeds are recorded in the books of records)
+
+      Warnings and Reminders
+        (1-3: Allah is the One from whom is the divine punishment)
+         (3: The righteous seek closeness to Allah through His attributes and name)
+        (5-7: Be patient with your calling and worship, for Allah’s promise is true)
+          (36-41: The disbelievers will not believe until they are punished)
+        (42-44: Allah’s power will bring all to account)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+       A[Soorat al-Ma'arij] --> B(1-7: Divine Punishment and Inevitability);
+        A --> C(19-31: Man's Nature and Conduct);
+        A --> D(24-35: The Attributes of the Righteous);
+        A --> E(4, 30, 31, 38-40: Divine Power and Control);
+        A --> F(5-18, 40-44, 46-52: Warnings and Reminders);
+    
+     B --> B1(A Sceptic asks about punishment and Allah controls the routes of ascent);
+         B --> B2(The angels ascend to Allah in a day whose measure is fifty thousand years);
+        B --> B3(The disbelievers regard the punishment as far away, but it is close to Allah);
+
+        C --> C1(The nature of man is to be fretful and impatient);
+        C --> C2(The believers are aware of the great reward of the hereafter and seek guidance);
+         C --> C3(The believers are steadfast in prayer and are always on guard of their duties and obligations);
+       
+    D --> D1(The righteous have a prescribed share for the needy in their wealth);
+        D --> D2(The righteous have a clear understanding of faith and the hereafter);
+	D --> D3(The people of truth have a deep fear and respect for Allah);
+
+       E --> E1(Allah has control over everything and His is all that ascends to Him);
+        E --> E2(Allah has power over destiny);
+      
+      F --> F1(Allah has power over the divine punishment);
+      F --> F2(Allah's great knowledge);
+      F --> F3(The punishment for the disbelievers is inevitable);
+      F --> F4(The path to salvation is to be obedient and patient and rely on Allah);
+         
+    
+      </div>
+    <script src="al-maaarij.js"></script>
+</body>
+</html>

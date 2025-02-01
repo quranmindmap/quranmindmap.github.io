@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Buruj</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Buruj</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Burooj))
+                Divine Oaths and Their Significance
+                   (1-3: The oath by the heavens containing constellations, and the Day of Promise, and a witness and what is witnessed)
+                The Story of the People of the Trench
+                   (4-7: The story of the people of the trench, and their tyranny and rejection of believers)
+               Allah's Power and Sovereignty
+                  (8-9: Allah is the only one Who is worthy of worship, and is the controller of all)
+                    (9: All dominion and authority is with Allah)
+             The Fate of the Believers and Disbelievers
+                    (10-11: The punishment for those who persecute the believers is severe)
+                   (11: Those who believe will receive gardens of delight)
+                  (12-16: Allah's punishment is severe and that no one can oppose it)
+                (17-20: The stories of Pharaoh and Thamood and the truth of the Quran)
+                   (21-22: The Qur’an as a glorious book, and what is written in it will never be changed)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Burooj] --> B(1-3: Divine Oaths and Their Significance);
+         A --> C(4-7: The Story of the People of the Trench);
+         A --> D(8-9, 15-16: Allah's Power and Sovereignty);
+        A --> E(10-11: The Fate of the Believers and Disbelievers);
+         A --> F(17-20:  Divine Law, the truth, and the importance of the message of the Qur'an);
+        A --> G(21-22: The Qur'an as Divine and Untamperable);
+  
+        B --> B1(The oath by the heavens containing constellations, and the Day of Promise, and a witness and what is witnessed);
+
+         C --> C1(The story of the people of the trench, and their tyranny and rejection of believers);
+         
+         D --> D1(Allah is the only one Who is worthy of worship, and is the controller of all);
+        D --> D2(All dominion and authority is with Allah);
+       
+       E --> E1(The punishment for those who persecute the believers is severe);
+        E --> E2(Those who believe will be rewarded with gardens of delight);
+
+         F --> F1(The need to heed the message of the Qur'an);
+        F --> F2(The Qur'an is the ultimate truth)
+        G --> G1(The Qur'an is a glorious book and is protected by Allah);
+         
+    
+      </div>
+    <script src="al-burooj.js"></script>
+</body>
+</html>

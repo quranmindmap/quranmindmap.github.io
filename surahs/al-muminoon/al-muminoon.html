@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Muminoon</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Muminoon</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah al-Mu'minoon))
+              Characteristics of the Successful Believers
+                  Humility in Prayer
+                  Avoidance of Vain Talk
+                  Purification Through Zakat
+                  Restraining Carnal Desires
+                  Keeping Trusts and Pledges
+                   Diligent in Prayer
+              Creation of Man & Divine Power
+                  Stages of Human Creation
+                 Life is from Allah Alone
+              Stories of Messengers and Their People
+                 Nooh
+                  Hud
+                  Moosa & Haroon
+              Instructions to Messengers and Believers
+                   The need to follow the Straight Path
+                   The purpose of the creation of messengers
+              Emphasis on Divine Power and Sincerity
+                   The inability to perceive that they have been deceived
+                   Warning of Divine Wrath
+              Refutation of Polytheism and the Reality of the Afterlife
+                   Recounting the disbelief in the Hereafter
+                  Rejection of Divine Signs
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah al-Mu'minoon] --> B(Verses 1-11: Characteristics of the Successful Believers);
+        A --> C(Verses 12-22: The Creation of Man, Divine Power and Provision);
+        A --> D(Verses 23-50: The Stories of Messengers and the Response of their People);
+        A --> E(Verses 51-77: Instructions to Messengers, focus on eating wholesome food, and striving to do good deeds);
+        A --> F(Verses 78-90: Emphasis on Divine Power, and the Importance of Sincerity and Reliance on Allah);
+         A --> G(Verses 91-118: Refutation of Polytheism, the Reality of the Afterlife, and the Plight of the Wrongdoers);
+            B --> B1(Humility in Prayer);
+            B --> B2(Avoidance of Vain Talk);
+            B --> B3(Purification Through Zakat);
+            B --> B4(Restraining Carnal Desires);
+            B --> B5(Keeping Trusts and Pledges);
+         B --> B6(Diligent in Prayer);
+        C --> C1(Stages of Human Creation);
+     C --> C2(Life is from Allah alone);
+      D --> D1(Nooh);
+        D --> D2(Hud);
+         D --> D3(Moosa and Haroon);
+      E --> E1(The need to follow the Straight Path);
+       E --> E2(The purpose of the creation of messengers);
+       F --> F1( The inability to perceive that they have been deceived);
+      
+     G --> G1(Recounting the disbelief in the Hereafter);
+     G --> G2(Rejection of Divine Signs);
+         
+    
+      </div>
+    <script src="al-muminoon.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Alaq</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Alaq</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-'Alaq))
+        Divine Command to Recite
+           (1: Read in the name of your Lord Who created)
+           (3: Recite for your Lord is the most generous)
+       Human Creation and Divine Guidance
+           (2: Allah created man from a clinging clot)
+           (4-5: Allah taught man the use of the pen and taught him what he did not know)
+       Transgression and Arrogance
+            (6-7: Man transgresses when he sees himself as self-sufficient)
+       Warnings and Reminders
+         (14: Allah sees everything)
+           (15-19: If people continue to transgress, they will be punished)
+          (19: Prostrate and draw near to Allah)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-'Alaq] --> B(1, 3: Divine Command to Recite);
+        A --> C(2, 4-5: Human Creation and Divine Guidance);
+       A --> D(6-7: Transgression and Arrogance);
+	   A --> E(14-19: Warnings and Reminders);
+  
+        B --> B1(Read in the name of your Lord Who created);
+         B --> B2(Recite for your Lord is the most generous);
+       C --> C1(Allah created man from a clinging clot);
+        C --> C2(Allah taught man the use of the pen and taught him what he did not know);
+         
+       D --> D1(Man transgresses when he sees himself as self-sufficient);
+
+        E --> E1(Allah sees everything);
+      E --> E2(Those who transgress will be punished);
+      E --> E3(Prostrate and draw near to Allah);
+         
+    
+      </div>
+    <script src="al-alaq.js"></script>
+</body>
+</html>

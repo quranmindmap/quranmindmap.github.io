@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Infitaar</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Infitaar</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah as-Sajdah))
+              Introduction, the Qur'an & Allah's Power
+                The Qur'an as Guidance & its perfection
+                Allah's creation of the heavens, earth, and man
+              Disbelievers' Rejection
+                  The Disbelievers' disbelief in the Hereafter
+                   The Disbelievers' request for a sign
+              Characteristics of Believers
+                  The believers' prostration and submission to their Lord
+                  Their humility and their acts of worship
+                Their hope for divine reward
+              Divine Judgement
+                 The state of the disbelievers on Judgement Day
+                Divine Judgement and Inevitable Requital
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Infitar] --> B(1-4: The Day of Reckoning and Its Terrors);
+      A --> C(5: The Revelation of Deeds);
+      A --> D(6-8: Allah's Attributes);
+      A --> E(6-8, 10-12: The Choice Before Humanity);
+      A --> F(16-19: Divine Power);
+       
+        B --> B1(The rending of the heavens, scattering of stars, bursting of seas, and overturning of graves);
+        
+        C --> C1(Each soul will know what it has sent forth and what it left behind);
+    
+      D --> D1(Allah is the Generous, created mankind in perfect shape and then provides guidance and warning);
+
+       E --> E1(Be not deceived by grace and good health, as this should compel thankfulness and not arrogance);
+        E --> E2(Angels are watching over everyone and are recording all deeds);
+      
+        F --> F1(Allah’s decree is unescapable);
+         
+    
+      </div>
+    <script src="al-infitaar.js"></script>
+</body>
+</html>

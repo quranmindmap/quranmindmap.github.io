@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Aadiyaat </title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Aadiyaat </h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-'Adiyat))
+        Divine Oaths by the Horses of Jihad
+            (1-5: Oaths by the horses, and the sounds and actions of war)
+      Human Ingratitude and Pride
+           (6-8: Man is ungrateful for all blessings that he receives)
+           (6-8: Man is a witness against himself)
+           (7-8: Man's love of wealth is immense)
+      The Coming Recompense
+           (9: The Day of Resurrection will come and bring all to account)
+           (10: All inner secrets will be laid open)
+        (11: Allah knows all and is in full control)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-'Adiyat] --> B(1-5: Divine Oaths by the Horses of Jihad);
+        A --> C(6-8: Human Ingratitude and Pride);
+        A --> D(9-11: The Coming Recompense);
+   
+        B --> B1(Oaths by the horses, and the sounds and actions of war);
+
+        C --> C1(Man is ungrateful for all blessings that he receives);
+        C --> C2(Man is a witness against himself);
+        C --> C3(Man's love of wealth is immense);
+
+         D --> D1(The Day of Resurrection will come and bring all to account);
+       D --> D2(All inner secrets will be laid open);
+       D --> D3(Allah knows all and is in full control)
+         
+    
+      </div>
+    <script src="al-aadiyaat.js"></script>
+</body>
+</html>

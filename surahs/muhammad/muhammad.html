@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Muhammad</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Muhammad</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat Muhammad))
+        The Believers
+             (1-2: Allah will guide and rectify those who believe and do good deeds)
+            (4-7: The qualities and benefits of those who strive in Allah's cause)
+            (20-23: Believers should not let their good deeds go to waste and should persist)
+        The Disbelievers
+           (1-3: Allah renders the deeds of disbelievers invalid and leads them to destruction)
+          (17-18: Those who disbelieve are far from divine guidance, and how it leads them astray)
+          (20-23: Their disbelief leads to an increase in their evil actions and their bad outcome)
+      The Nature of the Struggle
+         (4-7: The Muslims will prevail, but need to be steadfast)
+          (8-12: The believers must support the cause of Allah and His Messenger)
+         (30-32: Disbelievers are recognized by the diseases of their hearts)
+        (36-38: The reward is in the hereafter and not in this world, so seek that)
+      The Qur'an as the Truth
+        (1-3: The Qur'an is the truth from Allah)
+        (14: The Qur'an contains guidance that is needed by those who want to strive)
+      Divine Justice and Divine Support
+         (4: Allah is the All Knowing, All Wise)
+         (4: Allah tests people so they will become known for their good or evil)
+        (5, 15: Allah will make the believers steadfast and support them in their efforts)
+        (14: Allah guides those who believe and who turn to Him for that guidance)
+        (38: Allah is All-Seeing, and all things will return to Him)
+        (4-7: Allah has ultimate power and will)
+       (35: Allah will not let the believers lose out on their deeds)
+        (38: Allah will never detract from the reward of the believers)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Soorat Muhammad] --> B(1-2, 4-7, 20-23: The Believers);
+        A --> C(1-3, 17-23: The Disbelievers);
+        A --> D(4-12, 30-38: The Nature of the Struggle);
+	A --> E(1-3, 14: The Qur'an as the Truth);
+        A --> F(4-7, 14, 35, 38: Divine Justice and Divine Support);
+
+        B --> B1(Allah will guide and rectify those who believe and do good deeds);
+        B --> B2(The qualities and benefits of those who strive in Allah's cause);
+       B --> B3(Believers should not let their good deeds go to waste and should persist);
+    
+    C --> C1(Allah renders the deeds of disbelievers invalid and leads them to destruction);
+        C --> C2(Those who disbelieve are far from divine guidance, and how it leads them astray);
+         C --> C3(Their disbelief leads to an increase in their evil actions and their bad outcome);
+       
+	 D --> D1(The Muslims will prevail, but need to be steadfast);
+    	D --> D2(The believers must support the cause of Allah and His Messenger);
+	 D --> D3(Disbelievers are recognized by the diseases of their hearts);
+        D --> D4(The reward is in the hereafter and not in this world, so seek that);
+    
+      E --> E1(The Qur'an is the truth from Allah);
+        E --> E2(The Qur'an contains guidance that is needed by those who want to strive);
+      
+        F --> F1(Allah is the All Knowing, All Wise);
+         F --> F2(Allah tests people so they will become known for their good or evil);
+        F --> F3(Allah will make the believers steadfast and support them in their efforts);
+	F --> F4(Allah guides those who believe and who turn to Him for that guidance);
+        F --> F5(Allah will not let the believers lose out on their deeds);
+        F --> F6(Allah will never detract from the reward of the believers);
+         
+    
+      </div>
+    <script src="muhammad.js"></script>
+</body>
+</html>

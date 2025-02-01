@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-jumuah</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-jumuah</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Jumu'ah))
+                Divine Grace and Messengership
+                    (1: All in the heavens and earth glorifies Allah)
+                   (2:  Allah sent an unlettered Messenger to humanity)
+                   (2-3:  The Messenger recites, purifies, and teaches the Book and wisdom)
+               The Believers
+                    (4: Allah’s grace is given to whomever He wills)
+                   (7-8: The believers should desire death, if they are truly Allah's friends)
+                (9: The call to prayer should take precedence)
+                 (9-11: The need to remember Allah in prayer and in all affairs)
+              The Hypocrites and Disbelievers
+                 (5: Those who do not benefit from the book are described as a donkey carrying tomes)
+               (6-8: The Jews are told that they must wish for death if they are the chosen people of Allah)
+                   (11: Worldly distractions should not interfere with worship)
+              Importance of Faith and Worship
+                   (2:   The Messenger's tasks of recitation, purification, and teaching)
+               (2: To act according to the guidance of the Qur'an and Sunnah)
+               (9-11: The need to prioritize prayer on Friday and remember Allah always)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Soorat al-Jumu'ah] --> B(1-3: Divine Grace and Messengership);
+        A --> C(4, 7-8: The Believers);
+        A --> D(5, 6-8, 11: The Hypocrites and Disbelievers);
+        A --> E(2, 9-11: Importance of Faith and Worship);
+    
+        B --> B1(All in the heavens and earth glorifies Allah);
+        B --> B2(Allah sent an unlettered Messenger to humanity);
+        B --> B3(The Messenger recites, purifies, and teaches the Book and wisdom);
+
+        C --> C1(Allah’s grace is given to whomever He wills);
+       C --> C2(The believers should desire death, if they are truly Allah's friends);
+       C --> C3(The call to prayer should take precedence);
+     C --> C4(The need to remember Allah in prayer and in all affairs);
+        
+        D --> D1(Those who do not benefit from the book are described as a donkey carrying tomes);
+       D --> D2(The Jews are told that they must wish for death if they are the chosen people of Allah);
+        D --> D3(Worldly distractions should not interfere with worship);
+	
+	   E --> E1(The Messenger's tasks of recitation, purification, and teaching);
+	   E --> E2(To act according to the guidance of the Qur'an and Sunnah);
+	    E --> E3(The need to prioritize prayer on Friday and remember Allah always);
+         
+    
+      </div>
+    <script src="al-jumua.js"></script>
+</body>
+</html>

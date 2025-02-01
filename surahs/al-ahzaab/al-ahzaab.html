@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-ahzaab</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-ahzaab</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Surah al-Ahzab))
+      Beliefs and Instructions
+        Instructions for the Prophet
+            Fear Allah
+            Do not obey disbelievers
+            Follow revelation
+        Putting Trust in Allah
+      Historical Context
+          Battle of the Trench
+              Believers' faith
+              Hypocrites' Disunity
+          Prophet's Wives
+               Rules of conduct
+              Appropriate speech
+         Social Reforms
+             Invalidation of Adoption
+             Prophet's Marriage to Zaynab's ex-wife
+          Allah's Greatness
+                Reminder of Allah's knowledge
+               Submission to Allah and Messenger
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah al-Ahzab] --> B(Verses 1-8:  Instructions and Divine Support for the Prophet);
+        A --> C(Verses 9-27: The Battle of the Trench, Hypocrites and the Believers);
+        A --> D(Verses 28-35: The Wives of the Prophet and Rules of Conduct);
+        A --> E(Verses 36-55:  Rulings on Marriage, Adoption, and Social Reform);
+         A --> F(Verses 56-73: Final Instructions, and Emphasis on Allah's Oneness and Power);
+            B --> B1(Fear Allah and do not obey disbelievers and hypocrites);
+            B --> B2(Divine Support and Guidance for the Prophet);
+                C --> C1(The Believers' Faith during the Siege);
+            C --> C2(The Hypocrites' Failure and Misguidance);
+            D --> D1(Rules of conduct for the wives of the Prophet);
+            D --> D2(Instructions on appropriate speech);
+            E --> E1(Invalidation of Adoption Practices);
+            E --> E2(Permissibility of marrying the Prophet’s ex-adopted son's wife);
+            F --> F1(Reminder of Allah's knowledge of all and His power);
+            F --> F2(Obligation of submitting to Allah and the Messenger);
+    
+      </div>
+    <script src="al-ahzaab.js"></script>
+</body>
+</html>

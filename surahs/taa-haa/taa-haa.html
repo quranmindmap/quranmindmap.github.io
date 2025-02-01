@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Taha</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Hud</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah Ta Ha))
+              Introduction & Story of Moosa
+                  The Qur'an
+                  Moosa's Selection & Divine Support
+              Moosa's Mission to Pharaoh
+                  Moosa's apprehension & request for help
+                  The importance of Prophetic speech
+              Confrontation with Pharaoh
+                  Pharaoh's Pride & Rejection
+                  Miracles as Evidence of Allah's Power
+              Journey out of Egypt
+                  Divine Salvation and Destruction
+               The Story of the Calf
+                    Consequences of deviation from guidance
+                   Allah's Mercy & forgiveness
+                Lessons, Adam, and Reassurance
+                     Guidance and reassurance
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah Taha] --> B(Verses 1-16: Introduction, Divine Communication and the Story of Moosa);
+        A --> C(Verses 17-48: Moosa's Mission to Pharaoh, His Request for Support and Signs);
+        A --> D(Verses 49-76: Confrontation with Pharaoh, Miracle of the Staff and Hand);
+        A --> E(Verses 77-98: The Journey out of Egypt, The Crossing of the Sea and destruction of Pharaoh);
+        A --> F(Verses 99-114: The Story of the Calf and the Downfall of Samiri);
+        A --> G(Verses 115-135: Lessons from the story, Adam's fall and repentance, Reassurance to Prophet Muhammad);
+        B --> B1(The Qur'an: a guide and a reminder);
+        B --> B2(Moosa's Selection and Divine Support);
+        C --> C1(Moosa's apprehension and request for help);
+        C --> C2(The importance of Prophetic speech);
+        D --> D1(Pharaoh's Pride and Rejection);
+     D --> D2(Miracles as Evidence of Allah's Power);
+    
+        E --> E1(Divine Salvation and Destruction);
+        F --> F1(Consequences of deviation from guidance);
+        F --> F2(Allah's Mercy & forgiveness);
+     G --> G1(Guidance and reassurance);
+         
+    
+      </div>
+    <script src="taa-haa.js"></script>
+</body>
+</html>

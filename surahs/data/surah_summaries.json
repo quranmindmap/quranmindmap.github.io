@@ -1,0 +1,17 @@
+[
+  {
+  "id": "al-fatiha",
+  "name": "Al-Fatiha",
+  "summary": "This is the opening chapter of the Quran. It's a prayer for guidance, lordship and mercy of Allah. It emphasizes that the Quran is a guide to those who are conscious of God. Muslims recite this surah in every prayer."
+  },
+  {
+  "id": "al-baqara",
+  "name": "Al-Baqara",
+  "summary": "Prophet stories (ADAM (AS), SULAIMAN (A), DAWOOD(A), IBRAHIM(A), MUSA(AS), YAKUB (A)), Belief in Allah (ENT), Five Pillars, Rituals, History of pronous nations, ISLAMIC THEOLOGY, Quran Challenge. PROHIBITIONS Alcohol, Intrest, Gambling."
+  },
+  {
+  "id": "an-nas",
+  "name": "An-Nas",
+  "summary": "Protection against the whisperings of Shaytan"
+  }
+]

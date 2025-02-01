@@ -1,0 +1,32 @@
+Key Themes in Surah Al-Baqarah (from the provided text and general knowledge):
+
+    Guidance for the Righteous (Muttaqeen): The Surah begins by highlighting the Quran as a guide for those who are mindful of God, believe in the unseen, establish prayer, give charity, and believe in the revelations.
+
+    Hypocrisy (Munafiqun): A significant portion is dedicated to describing the characteristics of hypocrites, those who pretend to believe but harbor disbelief in their hearts. Their deceitful nature, and ultimate spiritual loss are emphasized.
+
+    Creation and Sovereignty of Allah: The Surah stresses Allah's power as the Creator, Sustainer, and ultimate authority. His power over life, death, and all creation is highlighted. Examples include the creation of Adam, the story of the angels, and the power to give life and cause death.
+
+    Stories of Previous Nations: The Surah narrates stories of past nations, including the Children of Israel, to provide lessons and warnings. The stories of Moses, Pharaoh, and others are mentioned.
+
+    Oneness of God (Tawhid): The Surah emphasizes the absolute oneness of God and condemns the association of partners with Him (Shirk).
+
+    Faith and Disbelief: The Surah contrasts the characteristics and consequences of true faith (Iman) versus disbelief (Kufr). It highlights the rewards for believers and the punishment for disbelievers.
+
+    Piety and Righteousness (Taqwa): The Surah emphasizes the importance of piety, righteousness, and performing good deeds. This includes prayer, charity, fasting, and fulfilling promises.
+
+    The Day of Judgment: The Surah frequently mentions the Day of Judgment, the accountability of every soul, and the ultimate consequences of one's actions.
+
+    Divine Revelation: The Surah affirms the Quran as a divine revelation, a source of guidance, and a confirmation of previous scriptures.
+
+    Social and Legal Injunctions: Although not extensively covered in the provided text, Surah Al-Baqarah contains many social and legal injunctions, including rules on marriage, divorce, inheritance, usury, and other matters. The provided text does include some verses on dietary laws and the importance of fulfilling contracts.
+
+    ----------------------------------------------------------------------
+
+    Ali-imran
+    graph LR
+        
+         A[Al-Baqarah-Change of leadership-]
+         A --> C(Verse 1 to 39-Adopt the attitude of belief from the 3 attitudes of belief, disbelief and hypocrisy regarding the position of leadership and Tawheed);
+         A --> D(Verses 40 to 141,Explanation of the reasons for deposition of bani israel from the position of leadership and the appointment of the Ummah of Muhammad SAW);
+         A --> E(Verses 142 to 284,The Ummah of Muhammad SAW is given the position of leadership and the conditions of leadership are explained);
+         A --> F(Verses 284 to 286 -You will get power and domination if you followed the commandments of last Divine Law sincerely according to your capacity);

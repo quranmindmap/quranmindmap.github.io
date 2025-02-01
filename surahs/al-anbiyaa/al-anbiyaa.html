@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-anbiya</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-anbiya</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah al-Anbiya'))
+              Introduction - Judgement & the Oneness of Allah
+                  Warning about the approach of Judgement
+                  Rejection and ridicule
+                  The need to follow Allah's guidance and not desires
+              The Nature of the Divine and Rejection of Polytheism
+                  The heavens and earth are under Allah's authority
+                  Allah as the sole Creator
+              Stories of Prophets and Their Trials
+                    Ibraheem, Moosa, Haroon, and Lut
+                    Ismaeel, Idrees, and Dhul-Kifl
+                    Dhul-Noon and Zakariya
+              The Oneness of the Divine and the Oneness of the Message
+                 The unity of message of all Prophets
+                 The unity of the truth, and Allah's Power
+                   The final return is to Allah
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah al-Anbiya'] --> B(Verses 1-20: Introduction - the Reckoning is near; the rejection of truth; The Oneness of Allah);
+        A --> C(Verses 21-47: The Nature of the Divine and Rejection of Polytheism);
+        A --> D(Verses 48-91: Stories of Prophets and their trials, emphasizing their steadfastness);
+        A --> E(Verses 92-112:  The Oneness of the Divine and the Oneness of the Message);
+        B --> B1(Warning about the approach of Judgement);
+        B --> B2(Rejection and ridicule);
+        
+    
+        C --> C1(The heavens and earth are under Allah's authority);
+        C --> C2(Allah as the sole Creator);
+        D --> D1(Ibraheem, Moosa, Haroon, and Lut);
+        D --> D2(Ismaeel, Idrees, and Dhul-Kifl);
+         D --> D3(Dhul-Noon, and Zakariya);
+         E --> E1(The unity of message of all Prophets);
+         E --> E2(The unity of the truth, and Allah's Power);
+       
+         
+    
+      </div>
+    <script src="al-anbiyaa.js"></script>
+</body>
+</html>

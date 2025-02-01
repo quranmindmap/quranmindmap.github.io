@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-Furqan</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-Furqan</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah al-Furqan))
+             Introduction and Rejection
+                  The importance of the Qur'an, rejecting the message
+                  Why the Disbelievers rejected the prophet
+              Disbelievers' Claims & Allah's Response
+                Disbelievers' questions and demands regarding prophets and the unseen
+                   The angels and their coming as a warning
+                  The true abodes, and a description of paradise
+              Punishment and Destruction of Earlier Nations
+                  Destruction of nations who belied the Messengers
+              Disbelievers' Mockery
+                  Disbelievers turning away from the truth
+              Signs of Allah's Power
+                 Allah's ability to send rain from the heavens and all that it brings
+                The creation and control of the sun and shadows
+              The Messenger's message and His True Slaves
+                 The Messenger's calling to his Lord
+                   The character and virtues of those who are close to Allah
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah al-Furqan] --> B(Verses 1-20: Introduction, and Rejection of the Qur'an and Prophet);
+        A --> C(Verses 21-34:  The Disbelievers' Claims and Allah's Response, the true destination of the believers);
+         A --> D(Verses 35-40: Punishment and Destruction of Earlier Nations who Rejected Messengers);
+        A --> E(Verses 41-44: The Disbelievers' Mockery, and Their Lack of Understanding);
+        A --> F(Verses 45-55: Signs of Allah's Power in Creation);
+        A --> G(Verses 56-77: The Message of the Messenger, and the Description of the True Slaves of Allah);
+            B --> B1(The importance of the Qur'an, rejecting the message);
+     B --> B2(Why the Disbelievers rejected the prophet);
+    
+        C --> C1(Disbelievers' questions and demands regarding prophets and the unseen);
+        C --> C2(The angels and their coming as a warning);
+        C --> C3(The true abodes, and a description of paradise);
+      D --> D1(Destruction of nations who belied the Messengers);
+        E --> E1(Disbelievers turning away from the truth);
+        F --> F1(Allah's ability to send rain from the heavens and all that it brings);
+       F --> F2(The creation and control of the sun and shadows );
+      G --> G1(The Messenger's calling to his Lord);
+     G --> G2(The character and virtues of those who are close to Allah)
+         
+    
+      </div>
+    <script src="al-furqaan.js"></script>
+</body>
+</html>

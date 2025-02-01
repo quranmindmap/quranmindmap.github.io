@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah At-Takaathur</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah At-Takaathur</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat at-Takathur))
+        Distraction and Competition
+           (1-2:  Competition for worldly gain distracts from the remembrance of Allah until death)
+      Warning and Reminder
+           (3-4: People will come to know what they will face)
+          (5: If people knew the truth with certainty, they would not be distracted by the world)
+          (6-7: You will surely see hell and what is in store there)
+        (8:  People will be questioned about the blessings of Allah in this world)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Soorat at-Takathur] --> B(1-2: Distraction and Competition);
+        A --> C(3-7: Warning and Reminder);
+      A --> D(8: Accountability);
+
+       B --> B1(Competition for worldly gain distracts from the remembrance of Allah until death);
+       
+    C --> C1(People will come to know what they will face);
+     C --> C2(If people knew the truth with certainty, they would not be distracted by the world);
+     C --> C3(You will surely see hell and what is in store there);
+        D --> D1(People will be questioned about the blessings of Allah in this world)
+         
+    
+      </div>
+    <script src="at-takaathur.js"></script>
+</body>
+</html>

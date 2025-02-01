@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Saad</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Saad</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah Saad))
+                Introduction
+                  Affirmation of the Qur'an
+                    Disbelievers' arrogance and rejection of the message
+                  Consequences of rejecting the message
+                Stories of the Prophets
+                    Lessons from previous generations
+                    Story of David and Solomon, their power and submission to Allah
+                   Story of Ayyoob and his patience
+                States of Believers and Disbelievers
+                 Fates of those who reject the Truth
+                 Fates of those who are sincere
+             Creation and Divine Power
+                Status of Adam
+                Iblees' Arrogance and punishment
+                Ultimate Control and Might of Allah
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Surah Sad] --> B(Verses 1-11:  Affirmation of Qur'an and warning to disbelievers);
+    A --> C(Verses 12-40: Stories of Previous Generations and the Example of David and Solomon);
+    A --> D(Verses 41-48: Story of Ayyoob’s patience, and Allah's Favours upon Him);
+    A --> E(Verses 49-70: The Consequences for Those Who Reject the Reminder, The People of Paradise and of Hell);
+      A --> F(Verses 71-88:  The Creation of Adam, the Story of Iblees, and the Truth About Divine Power);
+        B --> B1(The Qur'an as a reminder and a guidance);
+         B --> B2(The disbelievers’ arrogance and rejection);
+        B --> B3(Rejection of message and disbelief has its consequences);
+        C --> C1(Stories of Previous Generations as a lesson);
+       C --> C2(Story of Dawood, his wisdom and turning to Allah);
+        C --> C3(Story of Suleman, his authority and his focus on justice);
+        D --> D1(Story of Ayyoob’s patience in adversity);
+       D --> D2(Allah's Mercy in His blessings);
+         E --> E1(The Fates of Those Who Reject Truth and Messengers);
+          E --> E2(The Fates of the Sincere Believers);
+        F --> F1(The Creation and Status of Adam);
+        F --> F2(Iblees' Arrogance and the punishment thereof);
+        F --> F3(The Ultimate control of Allah, the One);
+         
+    
+      </div>
+    <script src="saad.js"></script>
+</body>
+</html>

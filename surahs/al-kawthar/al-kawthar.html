@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Kawthar</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Kawthar</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Kawthar))
+        Divine Gift to the Prophet
+            (1:  Allah has bestowed upon the Prophet Al-Kawthar)
+        Commands for Gratitude
+            (2: So pray and offer sacrifice to Allah)
+        The Fate of Those Who Hate the Prophet
+           (3: Allah has severed those who hate the prophet from goodness)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Soorat al-Kawthar] --> B(1: Divine Gift to the Prophet);
+        A --> C(2: Commands for Gratitude);
+        A --> D(3: The Fate of Those Who Hate the Prophet);
+
+       B --> B1(Allah has bestowed upon the Prophet Al-Kawthar);
+
+        C --> C1(So pray and offer sacrifice to Allah);
+        
+       D --> D1(Allah has severed those who hate the prophet from goodness);
+         
+    
+      </div>
+    <script src="al-kawthar.js"></script>
+</body>
+</html>

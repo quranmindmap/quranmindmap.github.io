@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Inshiqaaq</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Inshiqaaq</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Inshiqaq))
+        Signs of the Day of Judgement
+           (1-5: The heaven will be split apart, the earth will be stretched out, the graves will be turned over)
+      Humanity's Inevitable Meeting with Allah
+          (6:  Man will strive until he meets his Lord)
+         (7-12: The people of the right will have an easy reckoning)
+          (10-12: Those who receive their book behind their back will be doomed and wish for death)
+      Divine Justice and Accountability
+           (7-12: Allah will requite mankind for their deeds)
+           (11:  The severe fate of the evildoers)
+         (13-15:  Those with faith will be joyful and at ease, and those who disbelieve will despair)
+         (20-25: On that day people will be divided into groups according to their deeds)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Inshiqaq] --> B(1-5: Signs of the Day of Judgement);
+        A --> C(6-12: Humanity's Inevitable Meeting with Allah);
+        A --> D(7-15, 20-25: Divine Justice and Accountability);
+    
+        B --> B1(The heaven will be split apart, the earth will be stretched out, the graves will be turned over);
+  
+         C --> C1(Man will strive until he meets his Lord);
+         C --> C2(The people of the right will have an easy reckoning);
+         C --> C3(Those who receive their book behind their back will be doomed and wish for death);
+
+        D --> D1(Allah will requite mankind for their deeds);
+        D --> D2(The evildoers will be given a severe punishment);
+        D --> D3(Allah’s reward and justice will be manifested);
+         
+    
+      </div>
+    <script src="al-inshiqaaq.js"></script>
+</body>
+</html>

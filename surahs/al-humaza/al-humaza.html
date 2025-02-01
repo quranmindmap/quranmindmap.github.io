@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Humaza</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Humaza</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Humazah))
+                 The Condemnation of Faultfinders and Accumulators
+                      (1: Woe to every backbiter, fault-finder)
+                     (2: who accumulates wealth and keeps on counting it)
+                False Hopes and Rejection of Accountability
+                    (3: thinking that wealth will make him live forever)
+                   (4: The disbelievers will surely be flung into the crushing fire)
+             The Nature of the Punishment
+                  (5: How terrible is hell)
+                  (6-7: Allah’s own fire)
+                  (7: The Fire will reach into the hearts)
+                (8-9: The fire will not let them escape)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Humazah] --> B(1-3: The Condemnation of Faultfinders and Accumulators);
+        A --> C(3-4: False Hopes and Rejection of Accountability);
+         A --> D(5-9: The Nature of the Punishment);
+
+        B --> B1(Woe to every backbiter, fault-finder);
+        B --> B2(who accumulates wealth and keeps on counting it);
+	 
+        C --> C1(Thinking that wealth will make him live forever);
+        C --> C2(The disbelievers will surely be flung into the crushing fire);
+   
+       D --> D1(How terrible is hell);
+        D --> D2(Allah’s own fire);
+        D --> D3(The Fire will reach into the hearts);
+       D --> D4(The fire will not let them escape)
+         
+    
+      </div>
+    <script src="al-humaza.js"></script>
+</body>
+</html>

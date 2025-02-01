@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah an-naml</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah an-naml</h1>
+        <div id="mermaid-container" class="mermaid">
+   
+            mindmap
+            root((Surah an-Naml))
+              Introduction & the Story of Moosa
+                  The Qur'an, Guidance and Glad Tidings
+                  Moosa's appointment as Messenger
+              Story of Sulayman and the Queen of Sheba
+                 Divine gifts to Sulayman
+                  The Queen of Sheba's wisdom, and conversion to Islam
+             Story of Prophet Salih and His People
+                   Message, Rejection and Punishment of Salih's people
+             Story of Prophet Lut and His People
+                   Message, Rejection and Punishment of Lut's People
+             Signs of Allah's Power in Creation
+                    Creation as a sign of Allah
+                  Allah’s control of the natural world
+              Knowledge of the Unseen and Day of Judgement
+                    Allah's knowledge of the unseen
+                   Recompense and Requital
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah an-Naml] --> B(Verses 1-14: Introduction and the story of Prophet Musa);
+        A --> C(Verses 15-44: Story of Sulayman and the Queen of Sheba);
+        A --> D(Verses 45-55: Story of Prophet Salih and His People);
+        A --> E(Verses 56-58: Story of Lut and His People);
+         A --> F(Verses 59-64: The Power and Sovereignty of Allah in Creation);
+        A --> G(Verses 65-93: The Unseen and Judgement Day);
+        B --> B1(The Qur'an, Guidance and Glad Tidings);
+        B --> B2(Moosa's appointment as Messenger);
+        C --> C1(Divine gifts to Sulayman);
+         C --> C2(The Queen of Sheba's wisdom, and conversion to Islam);
+        D --> D1(Message, Rejection and Punishment of Salih's people);
+         E --> E1(Message, Rejection and Punishment of Lut's People);
+        F --> F1(Creation as a sign of Allah);
+      F --> F2(Allah’s control of the natural world);
+      G --> G1(Allah's knowledge of the unseen);
+       G --> G2(Recompense and Requital);
+         
+    
+      </div>
+    <script src="an-naml.js"></script>
+</body>
+</html>

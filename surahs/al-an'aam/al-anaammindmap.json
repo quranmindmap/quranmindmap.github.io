@@ -1,0 +1,94 @@
+{
+    "name": "Al-An'am",
+    "children": [
+      {
+        "name": "God",
+        "children": [
+          { "name": "One and Only", "size": 1 },
+          { "name": "Creator of all things", "size": 1 },
+          { "name": "All-Knowing", "size": 1 },
+          { "name": "All-Powerful", "size": 1 },
+          { "name": "Merciful and Forgiving", "size": 1 }
+        ]
+      },
+      {
+        "name": "Shirk (Polytheism)",
+        "children": [
+          { "name": "Refuted and condemned", "size": 1 },
+          { "name": "False deities have no power", "size": 1 },
+          { "name": "Consequences of associating partners with God", "size": 1 }
+        ]
+      },
+      {
+        "name": "Hereafter",
+        "children": [
+          { "name": "Importance of believing in the afterlife", "size": 1 },
+          { "name": "Day of Judgement", "size": 1 },
+          { "name": "Rewards for the righteous", "size": 1 },
+          { "name": "Punishment for the wicked", "size": 1 }
+        ]
+      },
+      {
+        "name": "Prophet Muhammad",
+        "children": [
+          { "name": "His role as a Messenger", "size": 1 },
+          { "name": "Confirmation of previous scriptures", "size": 1 },
+          { "name": "Rejection and opposition faced by him", "size": 1 }
+        ]
+      },
+      {
+        "name": "Revelation",
+        "children": [
+          { "name": "Nature of the Quran", "size": 1 },
+          { "name": "Guidance for mankind", "size": 1 },
+          { "name": "Truth from God", "size": 1 }
+        ]
+      },
+      {
+        "name": "Past Prophets",
+        "children": [
+          { "name": "Abraham", "size": 1 },
+          { "name": "Moses", "size": 1 },
+          { "name": "Jesus", "size": 1 },
+          { "name": "Others mentioned", "size": 1 }
+        ]
+      },
+      {
+        "name": "Creation",
+        "children": [
+          { "name": "Signs of God's power", "size": 1 },
+          { "name": "Heavens and Earth", "size": 1 },
+          { "name": "Animals and plants", "size": 1 }
+        ]
+      },
+      {
+        "name": "Laws and Ethics",
+        "children": [
+          { "name": "Prohibition of unlawful killing", "size": 1 },
+          { "name": "Dietary laws (Halal and Haram)", "size": 1 },
+          { "name": "Importance of justice", "size": 1 }
+        ]
+      },
+      {
+        "name": "Warnings",
+        "children": [
+          { "name": "Consequences of rejecting the truth", "size": 1 },
+          { "name": "Fate of past communities", "size": 1 },
+          { "name": "Condemnation of superstitions", "size": 1 }
+        ]
+      },
+      {
+        "name": "Guidance",
+        "children": [
+          {
+            "name": "Follow the right path",
+            "size": 1
+          },
+          {
+            "name": "Do righteous deeds",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }

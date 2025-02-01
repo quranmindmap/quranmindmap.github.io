@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Ghafir</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah </h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+        root((Soorat Ghâfir))
+             Divine Majesty
+                Allah’s Attributes
+                Angels and supplication
+                Allah's Power over all
+            Disbelievers and their Fate
+                Rejection of messengers
+                Doom and punishment
+                Story of Moses and Pharaoh
+           Path of Truth
+                Importance of Guidance
+                Warning from transgression
+            Divine Might and Mercy
+                Allah’s Control
+                He Who bestows good and causes harm
+           Call to Allah
+               Message of Messengers
+               Warning of punishment
+               Submission to the truth
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah Ghafir] --> B(Verses 1-9: Divine Attributes, Mercy and Forgiveness, and the Angels’ supplication);
+        A --> C(Verses 10-27: The Disbelievers' Rejection, The Day of Judgement, and The Story of Moses and Pharaoh);
+        A --> D(Verses 28-40:  The Believer's Call to Truth, and the Opposition to it);
+       A --> E(Verses 41-60: Reminder of divine power, and the inevitability of judgement);
+     A --> F(Verses 61-77: Divine Power, Control, and The signs of Allah in His Creations);
+     A --> G(Verses 78-85:  The message of the Messengers, and Allah's might and punishment);
+           B --> B1(Allah’s perfect nature in His attributes and deeds);
+          B --> B2(Angels glorification of Allah, and seeking forgiveness for believers);
+          C --> C1(The Disbelievers rejection of the Message);
+          C --> C2(Consequences of disbelief and the fate of those who reject truth);
+         C --> C3(Story of Musa and Pharaoh as an example);
+            D --> D1(The believers' guidance to the truth);
+         D --> D2(Arrogance and opposition to it);
+             E --> E1(Allah's power over all);
+               E --> E2(The inevitability of judgement and requital);
+            F --> F1(Allah’s ability to show signs and give guidance);
+             F --> F2(Allah’s power and control over everything in His creation);
+            G --> G1(The call of messengers to submission);
+              G --> G2(The inevitability of punishment for those who reject);
+         
+    
+      </div>
+    <script src="ghafir.js"></script>
+</body>
+</html>

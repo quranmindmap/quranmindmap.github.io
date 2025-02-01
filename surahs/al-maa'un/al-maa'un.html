@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Maa'un</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Maa'un</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Ma'oon))
+        Denial of the Hereafter
+            (1: Have you seen the one who denies the Last Judgement?)
+       The Rejection of the Needy
+            (2: He drives away the orphan)
+            (3: He does not urge others to feed the needy)
+       The Insincerity of their Prayer
+           (4-5: Woe to those who pray, but are heedless regarding their prayer)
+       False Piety and Withholding
+           (6: Those who make a show of piety)
+          (7: Those who withhold even the smallest kindnesses)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+    graph LR
+        A[Soorat al-Ma'oon] --> B(1: Denial of the Hereafter);
+        A --> C(2-3: The Rejection of the Needy);
+        A --> D(4-5: The Insincerity of their Prayer);
+        A --> E(6-7: False Piety and Withholding);
+
+        B --> B1(Have you seen the one who denies the Last Judgement?);
+    
+        C --> C1(He drives away the orphan);
+        C --> C2(He does not urge others to feed the needy);
+     
+       D --> D1(Woe to those who pray, but are heedless regarding their prayer);
+   
+       E --> E1(Those who make a show of piety);
+       E --> E2(Those who withhold even the smallest kindnesses);
+         
+    
+      </div>
+    <script src="al-maaun.js"></script>
+</body>
+</html>

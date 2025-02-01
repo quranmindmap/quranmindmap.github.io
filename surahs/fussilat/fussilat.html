@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Fussilat</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Fussilat</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat Fussilat))
+      Revelation and Guidance
+          Divine origin of the Qur'an
+            Clarity and Truth of the message
+           The disbelievers' rejection
+     Warnings and Consequences
+        Disbelievers' arrogance and rejection of truth
+        Consequences of their disbelief
+        Guidance and its significance
+        Seek refuge in Allah from Shaytân
+     Allah's Attributes and Power
+        Divine Control and Authority
+      Allah’s Power in Creation
+     Day of Judgement
+        State of the guided and the misguided
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah Fussilat] --> B(Verses 1-12:  Divine Origin of Qur'an and Reactions to it);
+        A --> C(Verses 13-35: Warnings to Disbelievers and Their Excuses);
+        A --> D(Verses 36-46:  Protection from Shaytan and Divine Guidance );
+        A --> E(Verses 47-54: The ultimate authority of Allah, His power and signs, and the fate of the disbelievers);
+            B --> B1(The Qur'an as a Revelation of truth and Divine Guidance);
+            B --> B2(The Disbelievers' Rejection of the Truth);
+            B --> B3(The disbelievers disbelief, arrogance and rejection);
+              C --> C1(Rejection of Allah's message and claim of self-sufficiency);
+             C --> C2(The consequences of disbelief in this life);
+              C --> C3(The importance of true guidance);
+            D --> D1(Seeking refuge in Allah from the whispers of Shaytan);
+              D --> D2(Divine guidance as source of clarity and understanding);
+            E --> E1(The nature of divine control and the state of those who are under it);
+                E --> E2(The inevitability of the day of resurrection, and the state of the disbelievers on that day);
+         
+    
+      </div>
+    <script src="fussilat.js"></script>
+</body>
+</html>

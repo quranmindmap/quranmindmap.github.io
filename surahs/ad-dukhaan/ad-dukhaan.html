@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah ad-dukhan</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Ad-Dukhan</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat ad-Dukhan))
+                Divine Revelation and Warning
+                    (1-6: The Qur'an is a clear Book sent down during a blessed night)
+                    (3: Allah sends Messengers as a mercy)
+                    (3: The Qur'an as a warning)
+                    (4-5: All matters are decided on the basis of wisdom and by divine command)
+               Rejection and Their Fate
+                   (7-9: The rejection of the disbelievers)
+                   (10-16: Warning of the coming of a visible smoke as a sign)
+                   (17-29: The arrogance of Pharaoh and his people, and their destruction)
+                   (30-33: Allah's destruction of Pharaoh and his people)
+                   (34-37: Allah's power and warnings)
+                 (35: Those who argue against Our signs will know that they have no escape.)
+             The Nature of Man
+                (49-51: Man's lack of patience in ease and hardship)
+                (51: Man resorts to supplication during hardship)
+              Allah's Attributes and Power
+                   (4: Allah is the Most High, the Most Great)
+                  (5: Allah is Oft-Forgiving, Most Merciful)
+                   (11: Allah sends down rain and gives life to the dead)
+              Divine Judgement
+                 (25, 52-54: Allah will punish the wrongdoers)
+                 (52: Allah will requite each person for their deeds)
+                 (53: Allah will show His signs until it becomes clear to them that Qur'an is true)
+                 (54: Allah encompasses all things)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Soorat ad-Dukhan] --> B(1-6: Divine Revelation and Warning);
+        A --> C(7-33, 35: Rejection and Their Fate);
+        A --> D(49-51: The Nature of Man);
+        A --> E(4,12: Allah's Attributes and Power);
+        A --> F(25, 52-54: Divine Judgement);
+    
+        B --> B1(The Qur'an is a clear Book sent down during a blessed night);
+        B --> B2(Allah sends Messengers as a mercy);
+         B --> B3(The Qur'an as a warning);
+        B --> B4(All matters are decided on the basis of wisdom and by divine command);
+
+         C --> C1(The rejection of the disbelievers);
+        C --> C2(Warning of the coming of a visible smoke as a sign);
+        C --> C3(The arrogance of Pharaoh and his people, and their destruction);
+        C --> C4(Allah's destruction of Pharaoh and his people);
+        C --> C5(Those who argue against Our signs will know that they have no escape.);
+      
+	    D --> D1(Human's impaitence with ease and hardship);
+        D --> D2(Man resorts to supplication during hardship);
+        
+        E --> E1(Allah is the Most High, the Most Great);
+        E --> E2(Allah is Oft-Forgiving, Most Merciful);
+      E --> E3(Allah sends down rain and gives life to the dead);
+       
+        F --> F1(Allah will punish the wrongdoers);
+       F --> F2(Allah will requite each person for their deeds);
+       F --> F3(Allah will show His signs until it becomes clear to them that Qur'an is true);
+        F --> F4(Allah encompasses all things);
+         
+    
+      </div>
+    <script src="as-sajda.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-muzzamil</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-muzzamil</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Muzzammil))
+                The Command to Pray at Night
+                    (1-4: The command to stand up in prayer during the night)
+                  (4: To recite the Qur’an in the night)
+                    (6: To pray at night for proper focus and recitation)
+                The Burden of Revelation
+                     (5: The immense weight of the Qur’an)
+                  (8: Devote yourself completely to Allah)
+                 (7:  Allah provides time during the day to deal with worldly affairs)
+        
+              The Need for Patience and Reliance
+                 (10: To bear patiently with the opposition)
+                (9: To have reliance on Allah alone)
+              Patience and Persistence in Da'wah
+                    (10: To keep your distance from the disbelievers)
+                 (10: Remember and Glorify Allah)
+              Following the Prophetic Example
+                   (8: Constantly remember the name of your Lord)
+                     (7: To live a life of worship and devotion)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Muzzammil] --> B(1-4, 6: The Command to Pray at Night);
+        A --> C(5, 8: The Burden of Revelation);
+         A --> D(10: The Need for Patience and Reliance);
+        A --> E(10: Patience and Persistence in Da'wah);
+       A --> F(8-9: Following the Prophetic Example);
+
+        B --> B1(The command to stand up in prayer during the night);
+	   B --> B2(To recite the Qur’an in the night);
+        B --> B3(To pray at night for proper focus and recitation);
+
+       C --> C1(The immense weight of the Qur’an);
+        C --> C2(Devote yourself completely to Allah);
+	   C --> C3(Allah provides time during the day to deal with worldly affairs);
+ 
+       D --> D1(To bear patiently with the opposition);
+       D --> D2(To have reliance on Allah alone);
+
+       E --> E1(To keep your distance from the disbelievers);
+         E --> E2(Remember and Glorify Allah);
+    
+       F --> F1(Constantly remember the name of your Lord);
+       F --> F2(To live a life of worship and devotion);
+         
+    
+      </div>
+    <script src="al-muzzammil.js"></script>
+</body>
+</html>

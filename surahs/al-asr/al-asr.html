@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Asr</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Asr</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-'Asr))
+                 The Oath and the Loss of Humanity
+                     (1-2: Oaths by time, that humans are in a state of loss)
+                The Exceptions: The Path to Success
+                    (3: Four characteristics that exempt from loss: faith, righteous deeds, advising to truth, and advising to patience)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-'Asr] --> B(1-2: The Oath and the Loss of Humanity);
+        A --> C(3: The Exceptions: The Path to Success);
+
+        B --> B1(Oaths by time, that humans are in a state of loss);
+        
+        C --> C1(Four characteristics that exempt from loss: faith, righteous deeds, advising to truth, and advising to patience);
+         
+    
+      </div>
+    <script src="al-asr.js"></script>
+</body>
+</html>

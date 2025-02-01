@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Ad-dhariyat</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Ad-dhariyat</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat adh-Dhariyat))
+                Divine Oaths and Promises
+                     (1-6: The oaths of the wind, clouds, stars, and angels)
+                     (7-9:  the truth of Allah's promises)
+               Actions and Their Consequences
+                   (10-14:  The fate of those who base their beliefs on conjecture)
+                (15-19: The characteristics and reward of the righteous)
+                (20-23: The clear signs of Allah in the earth and their own selves)
+                  (24-30: The disbelievers will be requited on the Day of Judgement)
+                (31-37: Characteristics of the Believers and their reward in Paradise)
+                (41-42: Allah’s power)
+                (43-45: Allah’s power over disbelievers and their punishment)
+             Divine Attributes and Power
+                   (47-51: The blessings and provisions Allah bestows upon His creation)
+              (52-53: Allah will show His signs until it becomes clear to them that Qur'an is the truth)
+              (54-55: How the righteous fear Allah)
+             (56-58: How the disbelievers reject Allah)
+             (59-60: The message is a reminder)
+             Divine Will and Purpose
+              (56: Humans are created only to worship Allah alone)
+              (57-60: Allah is the sole source of provision, and He has complete control over His creation)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Soorat adh-Dhariyat] --> B(1-9: Divine Oaths and Promises);
+        A --> C(10-45: Actions and Their Consequences);
+        A --> D(47-53: Divine Attributes and Power);
+      A --> E(56-60: Divine Will and Purpose);
+
+       B --> B1(The oaths of the wind, clouds, stars, and angels);
+        B --> B2(The truth of Allah's promises);
+
+         C --> C1(The fate of those who base their beliefs on conjecture);
+         C --> C2(The characteristics and reward of the righteous);
+        C --> C3(The clear signs of Allah in the earth and their own selves);
+         C --> C4(The disbelievers will be requited on the Day of Judgement);
+        C --> C5(Characteristics of the Believers and their reward in Paradise);
+        C --> C6(Allah’s power);
+         C --> C7(Allah’s power over disbelievers and their punishment);
+
+        D --> D1(The blessings and provisions Allah bestows upon His creation);
+       D --> D2(Allah will show His signs until it becomes clear to them that Qur'an is the truth);
+         D --> D3(How the righteous fear Allah);
+         D --> D4(How the disbelievers reject Allah);
+        D --> D5(The message is a reminder);
+       
+       E --> E1(Humans are created only to worship Allah alone);
+        E --> E2(Allah is the sole source of provision, and He has complete control over His creation);
+         
+    
+      </div>
+    <script src="adh-dhaariyat.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-Hajj</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-Hajj</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah al-Hajj))
+              Introduction - Divine Power & The Sacred House
+                  Signs of the Hour and Allah's Power
+                  Reminder of divine power through creation and trials
+              Inviolability of the Sacred Mosque &  Rites of Sacrifice
+                  The sacred House as a symbol of unity
+                  Mentioning the name of Allah during sacrifice
+              Promise of Divine Support
+                   The need to strive in Allah's cause
+                  The promise of Allah’s help
+              Warnings and the Fate of Believers & Disbelievers
+                   Hypocrites and disbelievers: their characteristics and fate
+              Migration, Trials, and the Test of Patience
+                  Guidance in facing tribulations
+                  Importance of patience and trust
+                    Reward of sincere believers
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah al-Hajj] --> B(Verses 1-24: Introduction, The Power of Allah, Signs for Believers and Disbelievers, and the Purpose of the Sacred House);
+        A --> C(Verses 25-37: The Inviolability of the Sacred Mosque, Rites of Sacrifice, and the Futility of polytheism);
+        A --> D(Verses 38-48: The Promise of Divine Support for those who help Allah);
+        A --> E(Verses 49-57: The Promise of Victory, and Warnings against Hypocrisy and Disbelief);
+         A --> F(Verses 58-78: Migration and Jihad, Abundant Blessings and Trials, and the Test of Patience);
+    B --> B1(Signs of the Hour and Allah's Power);
+       B --> B2(Reminder of divine power through creation and trials);
+         C --> C1(The sacred House as a symbol of unity);
+        C --> C2(Mentioning the name of Allah during sacrifice);
+        D --> D1(The need to strive in Allah's cause);
+       D --> D2(The promise of Allah’s help);
+        E --> E1(Hypocrites and disbelievers: their characteristics and fate);
+        F --> F1(Guidance in facing tribulations);
+       F --> F2(Importance of patience and trust);
+       F --> F3(Reward of sincere believers);
+         
+    
+      </div>
+    <script src="al-hajj.js"></script>
+</body>
+</html>

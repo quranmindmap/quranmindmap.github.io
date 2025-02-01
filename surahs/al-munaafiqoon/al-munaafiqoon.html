@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-munafiqoon</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-munafiqoon</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Munafiqoon))
+                The Hypocrites' False Testimony and Actions
+                    (1: They falsely testify that Muhammad is the Messenger of Allah)
+                   (1: They use their oaths as a shield against criticism)
+                   (4: They have an impressive outward appearance and eloquence but they are empty)
+               Their True Nature and Fate
+                   (1-3: They are liars who combine faith and disbelief)
+                   (4: They are like propped-up wood)
+                    (4-6: They are the enemy and are misguided)
+                 (5: They are arrogant and turn away from being told the truth)
+                (6: They will never be forgiven)
+              The Believers' Conduct
+                 (4-5: Believers should avoid listening to the hypocrisy of the disbelievers)
+                 (11: The Believers should not forget that Allah has knowledge of their deeds)
+             The Futility of Hypocrisy and Deceit
+                 (7-8: The evil of seeking to harm the Messenger and plotting against him)
+                    (9-11: No benefit will come from their behaviour)
+                     (10: They will not be forgiven)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Munafiqoon] --> B(1, 4: The Hypocrites' False Testimony and Actions);
+        A --> C(1-6, 14: Their True Nature and Fate);
+        A --> D(4, 11: The Believers' Conduct);
+        A --> E(7-11: The Futility of Hypocrisy and Deceit);
+
+        B --> B1(They falsely testify that Muhammad is the Messenger of Allah);
+        B --> B2(They use their oaths as a shield against criticism);
+         B --> B3(They have an impressive outward appearance and eloquence but they are empty);
+    
+       C --> C1(They are liars who combine faith and disbelief);
+        C --> C2(They are like propped-up wood);
+        C --> C3(They are the enemy and are misguided);
+         C --> C4(They are arrogant and turn away from being told the truth);
+         C --> C5(They will never be forgiven);
+
+      D --> D1(Believers should avoid listening to the hypocrisy of the disbelievers);
+         D --> D2(The Believers should not forget that Allah has knowledge of their deeds);
+         
+      E --> E1(The evil of seeking to harm the Messenger and plotting against him);
+        E --> E2(No benefit will come from their behavior);
+         E --> E3(They will not be forgiven);
+         
+    
+      </div>
+    <script src="al-munaafiqoon.js"></script>
+</body>
+</html>

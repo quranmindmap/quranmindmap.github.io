@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah as-saff</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah as-saff </h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah as-Sajdah))
+              Introduction, the Qur'an & Allah's Power
+                The Qur'an as Guidance & its perfection
+                Allah's creation of the heavens, earth, and man
+              Disbelievers' Rejection
+                  The Disbelievers' disbelief in the Hereafter
+                   The Disbelievers' request for a sign
+              Characteristics of Believers
+                  The believers' prostration and submission to their Lord
+                  Their humility and their acts of worship
+                Their hope for divine reward
+              Divine Judgement
+                 The state of the disbelievers on Judgement Day
+                Divine Judgement and Inevitable Requital
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah as-Sajdah] --> B(Verses 1-9: Introduction, the Qur'an, and Allah's Might and Power);
+        A --> C(Verses 10-14: The Disbelievers' Denial of Resurrection and Their Doubts);
+        A --> D(Verses 15-22: Characteristics of the Believers and the Promise of Rewards);
+        A --> E(Verses 23-30: The Consequences of Disbelief, and the Divine Judgement on the Day of Reckoning)
+    
+            B --> B1(The Qur'an as Guidance & its perfection );
+       B --> B2(Allah's creation of the heavens, earth, and man);
+    
+        C --> C1(The Disbelievers' disbelief in the Hereafter);
+        C --> C2(The Disbelievers' request for a sign);
+    
+        D --> D1(The believers' prostration and submission to their Lord);
+       D --> D2(Their humility and their acts of worship);
+       D --> D3(Their hope for divine reward);
+     E --> E1(The state of the disbelievers on Judgement Day);
+      E --> E2(Divine Judgement and Inevitable Requital);
+         
+    
+      </div>
+    <script src="as-saff.js"></script>
+</body>
+</html>

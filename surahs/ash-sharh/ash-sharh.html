@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Ash-Sharh</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Ash-Sharh</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat ash-Sharh))
+        Allah's Favors on the Prophet
+            (1: Did We not expand your breast for you?)
+           (2-3: We relieved you of your burden)
+            (4:  We exalted your renown)
+        Guidance and Divine Wisdom
+           (5-6: With hardship comes ease)
+        The Path to Success
+            (7-8: The call to strive and put one’s hopes in Allah)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Soorat ash-Sharh] --> B(1-4: Allah's Favors on the Prophet);
+        A --> C(5-6: Guidance and Divine Wisdom);
+       A --> D(7-8: The Path to Success);
+
+        B --> B1(Did We not expand your breast for you?);
+        B --> B2(We relieved you of your burden);
+        B --> B3(We exalted your renown);
+
+         C --> C1(With hardship comes ease);
+
+        D --> D1(The call to strive and put one’s hopes in Allah);
+         
+    
+      </div>
+    <script src="ash-sharh.js"></script>
+</body>
+</html>

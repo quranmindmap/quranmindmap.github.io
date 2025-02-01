@@ -1,0 +1,54 @@
+[
+    {
+        "id": "al-fatiha",
+        "name": "Al-Fatiha",
+        "mindmap": [
+            { "id": "root", "topic": "Al-Fatiha", "direction": "right" },
+            { "id": "summary", "topic": "Summary", "parentId": "root" },
+            { "id": "summary-text", "topic": "The Opening: A prayer for guidance, emphasizing Allah's lordship and mercy.", "parentId": "summary" },
+            { "id": "themes", "topic": "Key Themes", "parentId": "root" },
+            { "id": "guidance", "topic": "Guidance", "parentId": "themes" },
+            { "id": "lordship", "topic": "Lordship", "parentId": "themes" },
+            { "id": "mercy", "topic": "Mercy", "parentId": "themes" },
+            { "id": "worship", "topic": "Worship", "parentId": "root" },
+            { "id": "exclusive", "topic": "Exclusive Worship of Allah", "parentId": "worship" }
+        ]
+    },
+    {
+        "id": "al-baqara",
+        "name": "Al-Baqara",
+        "mindmap": [
+            { "id": "root", "topic": "Al-Baqara", "direction": "right" },
+            { "id": "summary", "topic": "Summary", "parentId": "root" },
+            { "id": "summary-text", "topic": "The Cow: Longest Surah, covering diverse topics like faith, law, and stories of past prophets.", "parentId": "summary" },
+            { "id": "prophets", "topic": "Stories of Prophets", "parentId": "root" },
+            { "id": "adam", "topic": "Adam (AS)", "parentId": "prophets" },
+            { "id": "ibrahim", "topic": "Ibrahim (AS)", "parentId": "prophets" },
+            { "id": "musa", "topic": "Musa (AS)", "parentId": "prophets" },
+            { "id": "faith", "topic": "Faith and Belief", "parentId": "root" },
+            { "id": "five-pillars", "topic": "Five Pillars", "parentId": "faith" },
+            { "id": "quran", "topic": "Nature of the Quran", "parentId": "faith" },
+            { "id": "law", "topic": "Islamic Law", "parentId": "root" },
+            { "id": "dietary", "topic": "Dietary Laws", "parentId": "law" },
+            { "id": "charity", "topic": "Charity", "parentId": "law" },
+            { "id": "fasting", "topic": "Fasting", "parentId": "law" }
+        ]
+    },
+    {
+        "id": "an-nas",
+        "name": "An-Nas",
+        "mindmap": [
+          { "id": "root", "topic": "An-Nas", "direction": "right" },
+          { "id": "summary", "topic": "Summary", "parentId": "root" },
+          { "id": "summary-text", "topic": "Mankind: This surah seeks refuge in Allah from the evils of mankind and jinn.", "parentId": "summary" },
+          { "id": "refuge", "topic": "Seeking Refuge", "parentId": "root" },
+          { "id": "lord", "topic": "Lord of Mankind", "parentId": "refuge" },
+          { "id": "king", "topic": "King of Mankind", "parentId": "refuge" },
+          { "id": "god", "topic": "God of Mankind", "parentId": "refuge" },
+          { "id": "evil", "topic": "Evil", "parentId": "root" },
+          { "id": "whisperer", "topic": "Whisperer", "parentId": "evil" },
+          { "id": "jinn", "topic": "Jinn", "parentId": "evil" },
+          { "id": "men", "topic": "Men", "parentId": "evil" }
+        ]
+      }
+]

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Hud</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Maryam</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah Maryam))
+              Introduction & the Story of Zakariya
+                The Qur'an
+                Seeking a Righteous Successor
+                Glad Tidings of Yahya, his virtues
+              Story of Maryam & Jesus
+                 Maryam's Isolation and Encounter with Angel
+                  Miraculous Birth of Jesus
+                  Jesus's Declaration of His Servitude to Allah
+              Story of Prophet Ibraheem & Monotheism
+                   Ibraheem's Call to Monotheism
+                 Rejection and Ibraheem's Response
+              Story of Prophet Moosa and the Chosen People
+                  Moosa's Chosen Status
+                  The People of Moosa
+                  The Qur'an
+              Reminder of Judgement & the Fate of Believers and Disbelievers
+                   The Believers' Destination
+                   The Disbelievers' Destination
+               All are subject to Allah, Reminder of His Attributes and Power
+                   Allah's Attributes
+                   Allah's Power and Control
+                Rejection of Revelation and the Warnings
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah Maryam] --> B(Verses 1-15: Introduction, Revelation, and the Story of Zakariya);
+        A --> C(Verses 16-40: Story of Maryam and Jesus);
+        A --> D(Verses 41-50: Story of Prophet Ibraheem and Monotheism);
+        A --> E(Verses 51-65: Story of Prophet Moosa and the Chosen People);
+        A --> F(Verses 66-75: Reminder of Judgement, and  Fate of Believers and Disbelievers );
+        A --> G(Verses 76-98: All are subject to Allah, Reminder of His Attributes and Power, and Warning to the Disbelievers);
+        B --> B1(The Qur'an, Seeking a Righteous Successor);
+        B --> B2(Glad Tidings of Yahya, his virtues);
+        C --> C1(Maryam's Isolation and Encounter with Angel);
+        C --> C2(Miraculous Birth of Jesus);
+         C --> C3(Jesus's Declaration of His Servitude to Allah);
+    
+         D --> D1(Ibraheem's Call to Monotheism);
+        D --> D2(Rejection and Ibraheem's Response);
+    
+         E --> E1(Moosa's Chosen Status, the people of Musa, and the Qur'an);
+         F --> F1(The Believers' Destination);
+        F --> F2(The Disbelievers' Destination);
+        G --> G1(Allah's Attributes);
+        G --> G2(Allah's Power and Control);
+     G --> G3( Rejection of Revelation and The Warnings);
+         
+    
+      </div>
+    <script src="maryam.js"></script>
+</body>
+</html>

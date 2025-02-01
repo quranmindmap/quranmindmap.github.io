@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Lail</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Lail</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Layl))
+        Divine Oaths and Their Significance
+            (1-4: Oaths by the night and the day, and the creation of male and female)
+         The Two Paths and Their Outcomes
+            (5-7: Those who give in charity, fear Allah, and affirm the ultimate good, will have an easy path to salvation)
+           (8-11: Those who are miserly, think themselves self-sufficient, and reject the ultimate good will have an easy path to perdition, and their wealth will not save them)
+      The Divine Guidance
+           (12: Allah is the provider of all guidance)
+          (13: The hereafter and this world belong to Allah)
+      The Consequences of Rejection
+           (14-16: The fire of Hell is a warning for those who deny the truth)
+      (17-21: Those who give for the sake of Allah and who are sincere will find blessings and will be well pleased)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Layl] --> B(1-4: Divine Oaths and Their Significance);
+        A --> C(5-11: The Two Paths and Their Outcomes);
+        A --> D(12-13: The Divine Guidance);
+	   A --> E(14-21: The Consequences of Rejection and Reward);
+
+      B --> B1(Oaths by the night and the day, and the creation of male and female);
+
+       C --> C1(Those who give in charity, fear Allah, and affirm the ultimate good, will have an easy path to salvation);
+        C --> C2(Those who are miserly, think themselves self-sufficient, and reject the ultimate good will have an easy path to perdition, and their wealth will not save them);
+     
+       D --> D1(Allah is the provider of all guidance);
+       D --> D2(The hereafter and this world belong to Allah);
+	
+        E --> E1(The fire of Hell is a warning for those who deny the truth);
+        E --> E2(Those who give for the sake of Allah and who are sincere will find blessings and will be well pleased);
+         
+    
+      </div>
+    <script src="al-lail.js"></script>
+</body>
+</html>

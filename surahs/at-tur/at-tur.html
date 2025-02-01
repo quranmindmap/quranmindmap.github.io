@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah at-tur</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah at-tur</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat at-Toor))
+                Divine Oaths and Signs
+                    (1-6: Oaths by Mount Sinai, the Book, the Frequented House, the raised canopy, and the filled sea)
+                    (7: That the punishment of the Lord is inevitable and nothing will stop it)
+               The Day of Judgement and Its Horrors
+                   (9-10: The heavens will be convulsed and the mountains will shift)
+                   (11: Woe to those who deny the resurrection)
+                    (12-13: They who amuse themselves with vain discourse)
+                   (14-16: They will be forcefully shoved to hell, where they will face torment)
+                   
+                The Rewards and Traits of the Righteous
+                    (17-20: The righteous will be in gardens of bliss)
+                    (21-28: Their families and loved ones will join them, and they will have all kinds of delights)
+               Allah's Sovereignty and Power
+                    (21-28: Allah is the possessor of all authority and power)
+                    (29: The power of Allah over creation, and His mercy to the believers)
+                Divine Revelation
+                    (29-31: Reminding of the divine might, by which Allah controls all)
+                  (32-34: Allah's guidance of and blessings to Prophet Muhammad)
+                 (35-43: A challenge to those who try to refute the Message and Allah’s ability to do what He wills)
+              Divine Wisdom and Mercy
+                    (38-42: The vastness of Allah's power, his perfect justice and the need for faith)
+                    (44-46: Allah is able to punish and destroy, but He is merciful and delays)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat at-Toor] --> B(1-8: Divine Oaths and Signs);
+         A --> C(9-16: The Day of Judgement and Its Horrors);
+        A --> D(17-28: The Rewards and Traits of the Righteous);
+        A --> E(21-29: Allah's Sovereignty and Power);
+        A --> F(29-34: Divine Revelation);
+         A --> G(38-46: Divine Wisdom and Mercy);
+    
+        B --> B1(Oaths by Mount Sinai, the Book, the Frequented House, the raised canopy, and the filled sea);
+        B --> B2(That the punishment of the Lord is inevitable and nothing will stop it);
+
+        C --> C1(The heavens will be convulsed and the mountains will shift);
+        C --> C2(Woe to those who deny the resurrection);
+         C --> C3(They who amuse themselves with vain discourse);
+        C --> C4(They will be forcefully shoved to hell, where they will face torment);
+
+        D --> D1(The righteous will be in gardens of bliss);
+         D --> D2(Their families and loved ones will join them, and they will have all kinds of delights);
+
+        E --> E1(Allah is the possessor of all authority and power);
+        E --> E2(The power of Allah over creation, and His mercy to the believers);
+
+       F --> F1(Reminding of the divine might, by which Allah controls all);
+        F --> F2(Allah's guidance of and blessings to Prophet Muhammad);
+        F --> F3(A challenge to those who try to refute the Message and Allah’s ability to do what He wills);
+
+        G --> G1(The vastness of Allah's power, his perfect justice and the need for faith);
+         G --> G2(Allah is able to punish and destroy, but He is merciful and delays);
+         
+    
+      </div>
+    <script src="at-tur.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-waqiah</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah a-waqiah</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-Waqi'ah))
+        The Inevitable Event and Its Impact
+            (1-6: The Inevitable Event will occur, bringing some low and raising others)
+         The Three Groups
+              (7: People will be divided into three kinds)
+               (8-10: Those on the Right will be blessed)
+               (41-56: The People of the Left will be miserable)
+                (11-14: The Foremost in Faith will be closest to Allah)
+        Descriptions of Paradise and Hell
+            (15-26:  Description of the pleasures of Paradise)
+            (27-34: Description of the blessed who are given glad tidings)
+           (35-56: Description of the blessed and their companions and how they will be honoured)
+           (41-56: Descriptions of the hellfire and its torment)
+        The Reminder and Reflection
+            (57-70: Allah has created everything, and has control over life and death)
+            (71-82: Allah provided everything for people to use and benefit from in this life)
+            (83-87: Those in the throes of death will be helpless)
+             (88-96: The fate of those who are near to Allah and those who reject him)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Waqi'ah] --> B(1-6: The Inevitable Event and Its Impact);
+        A --> C(7-14, 41-56: The Three Groups);
+         A --> D(15-56: Descriptions of Paradise and Hell);
+       A --> E(57-82: The Reminder and Reflection);
+    
+        B --> B1(The Inevitable Event will occur, bringing some low and raising others);
+
+         C --> C1(Those on the Right will be blessed);
+         C --> C2(The People of the Left will be miserable);
+         C --> C3(The Foremost in Faith will be closest to Allah);
+
+        D --> D1(Description of the pleasures of Paradise);
+        D --> D2(Description of the blessed who are given glad tidings);
+       D --> D3(Description of the blessed and their companions and how they will be honoured);
+        D --> D4(Descriptions of the hellfire and its torment);
+
+       E --> E1(Allah has created everything, and has control over life and death);
+       E --> E2(Allah provided everything for people to use and benefit from in this life);
+       E --> E3(Those in the throes of death will be helpless);
+     E --> E4(The fate of those who are near to Allah and those who reject him) ;
+         
+    
+      </div>
+    <script src="al-waaqia.js"></script>
+</body>
+</html>

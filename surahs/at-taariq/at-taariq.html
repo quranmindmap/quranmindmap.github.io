@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah At-Taariq</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah At-Taariq</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat at-Tariq))
+                Divine Oaths and Their Significance
+                    (1-4: The oath by the heavens and the night time, and all that appears at night)
+                   (5-7: Allah creates man from a humble origin, but gives him abilities)
+                   (7: Man was created from an ejected fluid coming from between the backbone and ribs)
+               Human Accountability
+                   (4: That each soul is protected by a guardian)
+                   (5-6: Human is created and is given a path)
+                  (8-9: Allah's Power over the creation and the resurrection)
+                  (13: What will happen on the day of requital)
+              Divine Power and Wisdom
+               (1-4: Allah’s might and perfect wisdom is seen in His creation)
+                   (5-14: Allah’s power over all that he has created)
+        
+              The Quran and Truth
+                    (11-14: The need for people to recognize and believe in Allah and the Qur'an)
+                  (13: The Qur’an is the decisive word and not to be taken lightly)
+                  (13: It distinguishes between good and evil)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat at-Tariq] --> B(1-4: Divine Oaths and Their Significance);
+        A --> C(5-7: The Creation and Nature of Man);
+	   A --> D(4, 8-14: Human Accountability);
+        A --> E(1-4, 11-14: Divine Power and Wisdom);
+         A --> F(13-14: The Qur’an and Truth);
+         
+
+        B --> B1(The oath by the heavens and the night time, and all that appears at night);
+        B --> B2(Allah’s creation of man from a humble origin and His power)
+      
+       C --> C1(Man was created from an ejected fluid coming from between the backbone and ribs);
+
+    	
+        D --> D1(That each soul is protected by a guardian);
+         D --> D2(That Humans are created and given a path);
+         D --> D3(Allah's Power over the creation and the resurrection);
+       
+        E --> E1(Allah’s might and perfect wisdom is seen in His creation);
+         E --> E2(Allah has power over all that He has created);
+         
+       F --> F1(The Qur’an is the word of Allah that has come to guide mankind);
+      F --> F2(The Qur’an is the truth and should be adhered to);
+         
+    
+      </div>
+    <script src="at-taariq.js"></script>
+</body>
+</html>

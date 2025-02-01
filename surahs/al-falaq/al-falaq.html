@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-Falaq</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-Falaq</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Falaq))
+              Seeking Refuge
+                   (1: Seek refuge in Allah Who makes the dawn break)
+                Protection from Evils
+                    (2: From the harm of all that He has created)
+                    (3: From the harm of the night when darkness increases)
+                 (4: From the evil of those who practice witchcraft)
+                  (5: From the harm of the envious)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-Falaq] --> B(1: Seeking Refuge);
+        A --> C(2-5: Protection from Evils);
+    
+       B --> B1(Seek refuge in Allah Who makes the dawn break);
+
+        C --> C1(From the harm of all that He has created);
+        C --> C2(From the harm of the night when darkness increases);
+        C --> C3(From the evil of those who practice witchcraft);
+         C --> C4(From the harm of the envious);
+         
+    
+      </div>
+    <script src="al-falaq.js"></script>
+</body>
+</html>

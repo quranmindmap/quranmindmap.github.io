@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah al-a'laa</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah al-a'laa</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+    root((Soorat al-A'lâ))
+       Glorifying Allah
+           (1: Glorify the name of your Lord, the Most High)
+        Divine Creation and Guidance
+           (2-3:  Allah's Creation and predetermination)
+            (4-5: Allah provides pasture)
+        The Divine Revelation
+            (6-7:  The revelation and memorisation of the Qur'an)
+           (8: Allah will ease the path for you to attain paradise)
+      The Reminder and its Benefit
+           (9-10: Exhortation will only benefit those who fear Allah)
+           (11-13: Those who reject the message will enter hell and will not die in it nor live)
+         (14-15: The success of those who purify themselves)
+         (16-17: The preference of the disbelievers for the worldly life over the hereafter)
+        (18-19: This message is also present in the previous scriptures)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat al-A'lâ] --> B(1: Glorifying Allah);
+        A --> C(2-5: Divine Creation and Guidance);
+        A --> D(6-8: The Divine Revelation);
+	    A --> E(9-11, 13-15: The Reminder and its Benefit);
+        A --> F(16-19: Warnings about preference for the worldly life);
+   
+        B --> B1(Glorify the name of your Lord, the Most High)
+	
+       C --> C1(Allah's Creation and predetermination);
+	   C --> C2(Allah provides pasture);
+
+    
+       D --> D1(The revelation and memorisation of the Qur'an);
+        D --> D2(Allah will ease the path for those who follow the truth);
+
+       E --> E1(Exhortation will only benefit those who fear Allah);
+       E --> E2(Those who reject the message will enter hell and will not die in it nor live);
+       E --> E3(The success of those who purify themselves);
+        
+       F --> F1(Man's preference for the worldly life over the hereafter);
+       F --> F2(This message is also present in the previous scriptures);
+         
+    
+      </div>
+    <script src="al-alaa.js"></script>
+</body>
+</html>

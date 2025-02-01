@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah an-noor</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah an-noor</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Surah an-Noor))
+              Introduction to Rulings & Punishments
+                   The necessity to abide by the commandments
+                   The importance of purity
+                Etiquette of Entering Homes
+                   Rulings for entering houses, seeking permission and greeting
+                Parable of Allah's Light & Disbelief
+                  Allah as light and guidance
+                 The nature of disbelief
+                Importance of Obedience to Allah
+                     The need to be obedient and submissive to Allah alone
+                 The promise of success for believers
+                  The rewards of belief, and punishment of disbelief
+               Rulings on Privacy, and Seeking Permission
+                   Rulings for children and slaves
+                 Etiquette to be observed to preserve boundaries
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Surah an-Noor] --> B(Verses 1-26: Introduction to Rulings and Punishments, and Admonition against False Accusations);
+        A --> C(Verses 27-33: Etiquette of Entering Homes and Seeking Permission);
+         A --> D(Verses 35-40: The Parable of Allah's Light and the Nature of Disbelief);
+        A --> E(Verses 41-53: Emphasis on Allah's Knowledge and Sovereignty, and the Need for Obedience);
+        A --> F(Verses 54-57: The Promise of Success for the Believers and the Consequences of Disbelief);
+     A --> G(Verses 58-64: Rulings on Privacy, and Seeking Permission from people of different ages and stations);
+    
+    B --> B1(The necessity to abide by the commandments);
+     B --> B2(The importance of purity);
+     C --> C1(Rulings for entering houses, seeking permission and greeting);
+        D --> D1(Allah as light and guidance);
+       D --> D2(The nature of disbelief);
+        E --> E1(The need to be obedient and submissive to Allah alone);
+    F --> F1(The rewards of belief, and punishment of disbelief);
+    G --> G1( Rulings for children and slaves)
+    G --> G2(Etiquette to be observed to preserve boundaries)
+         
+    
+      </div>
+    <script src="noor.js"></script>
+</body>
+</html>

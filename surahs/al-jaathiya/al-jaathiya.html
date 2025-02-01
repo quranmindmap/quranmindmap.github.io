@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah Al-jaathiya</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah Al-jaathiya</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat al-Jathiyah))
+                Introduction and Divine Signs
+                    (1-4: Revelation of the Book from Allah, the All-Mighty, the Most Wise)
+                     (3-5: The Signs of Allah in the Heavens, the Earth, and in Humanity)
+                    (4: The Signs of Allah for those who are certain)
+                    (6: The Signs of Allah are shown by recitation)
+                Rejection and its consequences
+                   (7: Woe to every sinful liar)
+                   (8: The fate of those who hear the signs but are arrogant)
+                   (9-10: The fate of those who mock the signs)
+                 (10: Hell is the destination and there will be no helpers)
+              Accountability and divine justice
+                (3: The need to show gratitude to Allah)
+                (6-8: The fate of those who do not acknowledge the signs)
+                    (10: Hell is their destination and there will be no helpers)
+                     (11: The Qur'an is guidance and a warning)
+                   (14: The disbelievers differ out of mutual envy)
+              Divine power
+                  (11: Allah has knowledge of all things)
+                  (12: Allah makes use of the heavens and the earth for man)
+                 (13: Allah provides and controls creation)
+               Guidance
+                   (14-15: Guidance to call and remain steadfast)
+                 (16: Those who argue with Allah will have no weight)
+                 (20: The Qur'an is true guidance)
+                 (20: Importance of trust and reliance on Allah)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+        A[Soorat al-Jathiyah] --> B(1-6: Introduction and Divine Signs);
+        A --> C(7-10: Rejection and its consequences);
+        A --> D(3-12: Accountability and divine justice);
+        A --> E(11-13: Divine power);
+        A --> F(14-20: Guidance);
+    
+        B --> B1(Revelation of the Book from Allah, the All-Mighty, the Most Wise);
+         B --> B2(The Signs of Allah in the Heavens, the Earth, and in Humanity);
+        B --> B3(The Signs of Allah for those who are certain);
+         B --> B4(The Signs of Allah are shown by recitation);
+
+        C --> C1(Woe to every sinful liar);
+        C --> C2(The fate of those who hear the signs but are arrogant);
+         C --> C3(The fate of those who mock the signs);
+        C --> C4(Hell is the destination and there will be no helpers);
+          
+	    D --> D1(The need to show gratitude to Allah);
+        D --> D2(The fate of those who do not acknowledge the signs);
+        D --> D3(Hell is their destination and there will be no helpers);
+        D --> D4(The Qur'an is guidance and a warning);
+    
+        E --> E1(Allah has knowledge of all things);
+        E --> E2(Allah makes use of the heavens and the earth for man);
+          E --> E3(Allah provides and controls creation);
+
+        F --> F1(Guidance to call and remain steadfast);
+        F --> F2(Those who argue against the truth will have no weight);
+        F --> F3(The Qur'an is true guidance);
+         F --> F4(Importance of trust and reliance on Allah);
+
+         
+    
+      </div>
+    <script src="al-jaathiya.js"></script>
+</body>
+</html>

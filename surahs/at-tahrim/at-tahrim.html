@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindmap for Surah at-Tahreem</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        <h1 id="surah-title">Mindmap for Surah at-Tahreem</h1>
+        <div id="mermaid-container" class="mermaid">
+            mindmap
+            root((Soorat at-Tahreem))
+                Divine Guidance and Prohibition
+                     (1-5: The Prophet is rebuked for prohibiting what was lawful for him)
+                      (2: Allah has prescribed the way of releasing yourselves from oaths)
+                     (4: Sincere repentance is the way to avoid divine wrath)
+                     (6: Protect yourselves and your families from the fire)
+                Prophet's Household
+                     (3-5: How Allah supported the Prophet and His wives and warns about their behaviour)
+                   (6-10: The necessity of following the Messenger)
+                  (8-9: The importance of sincere repentance and a good outcome)
+                 (11-12: Examples of women in the past and their submission to Allah)
+                Allah's Attributes and Power
+                  (2: Allah is All-Knowing, Most Wise, and your guardian)
+               (6: Angels carry out Allah's command)
+              The Need to Strive and Seek Guidance
+                   (4: To have faith and support Allah and His Messenger)
+               (7-10: The need to fear Allah and to obey the messengers of Allah)
+                 (9: The need to repent and seek Allah's forgiveness)
+                 (10: The believers should be aware of the deception of Shaytan)
+        </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+        graph LR
+    A[Soorat at-Tahreem] --> B(1-5: Divine Guidance and Prohibition);
+        A --> C(3-12: Prophet's Household);
+         A --> D(2-6, 11-12: Allah's Attributes and Power);
+        A --> E(4, 6-10: The Need to Strive and Seek Guidance);
+        
+        B --> B1(The Prophet is rebuked for prohibiting what was lawful for him);
+        B --> B2(Allah has prescribed the way of releasing yourselves from oaths);
+	   B --> B3(Sincere repentance is the way to avoid divine wrath);
+        B --> B4(Protect yourselves and your families from the fire);
+        C --> C1(How Allah supported the Prophet and His wives and warns about their behavior);
+        C --> C2(The necessity of following the Messenger);
+        C --> C3(The importance of sincere repentance and a good outcome);
+       C --> C4(Examples of women in the past and their submission to Allah);
+
+        D --> D1(Allah is All-Knowing, Most Wise, and your guardian);
+	    D --> D2(Angels carry out Allah's command);
+      
+       E --> E1(To have faith and support Allah and His Messenger);
+        E --> E2(The need to fear Allah and to obey the messengers of Allah);
+         E --> E3(The need to repent and seek Allah's forgiveness);
+         
+    
+      </div>
+    <script src="as-sajda.js"></script>
+</body>
+</html>
