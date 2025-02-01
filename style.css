@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #808080; /* Dark gray background */
+    background-color: #424242; /* Dark gray background */
     color: #eee; /* Light text color */
 }
 
@@ -10,12 +10,24 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
+    padding: 20px;
+    background-color: #616161;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
     color: #e0e0e0; /* Light gray for better contrast */
     margin-bottom: 30px;
     font-size: 2.5rem; /* Increased font size */
+    font-weight: 500; /* Semi-bold font weight */
+    letter-spacing: 1px; /* Slight letter spacing for readability */
+}
+
+h2 {
+    color: #e0e0e0; /* Light gray for better contrast */
+    margin-bottom: 20px;
+    font-size: 1.8rem; /* Increased font size */
     font-weight: 500; /* Semi-bold font weight */
     letter-spacing: 1px; /* Slight letter spacing for readability */
 }
@@ -103,7 +115,6 @@ h1 {
     margin-top: 5px;
 }
 
-/* Tooltip Styles */
 .tooltip {
     position: absolute;
     background-color: #616161;
@@ -123,4 +134,98 @@ h1 {
 .tooltip-ayahs {
     display: block;
     text-align: left;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-content {
+    text-align: left;
+    line-height: 1.6;
+}
+
+.about-content h2 {
+    color: #90caf9; /* Light blue for headings */
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    color: #e0e0e0; /* Light gray for paragraph text */
+    margin-bottom: 15px;
+}
+
+.about-content ul {
+    color: #e0e0e0; /* Light gray for list items */
+    margin-bottom: 15px;
+}
+
+.about-content li {
+    margin-bottom: 5px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about-content a {
+    color: #90caf9; /* Light blue for links */
+    text-decoration: none;
+}
+
+.about-content a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #616161;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.about-content {
+    text-align: left; /* Align text to the left */
+    line-height: 1.6; /* Improve readability */
+    padding: 20px; /* Add padding */
+    background-color: #616161; /* Slightly lighter background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.about-content h2 {
+    color: #90caf9; /* Light blue for headings */
+    font-size: 1.8rem;
+    margin-top: 0; /* Remove default top margin */
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    color: #e0e0e0; /* Light gray for paragraph text */
+    margin-bottom: 15px;
+}
+
+.about-content ul {
+    color: #e0e0e0; /* Light gray for list items */
+    margin-bottom: 15px;
+    padding-left: 20px; /* Add padding to the left */
+}
+
+.about-content li {
+    margin-bottom: 8px;
+    list-style-type: disc; /* Use disc for list items */
+}
+
+.about-content a {
+    color: #90caf9; /* Light blue for links */
+    text-decoration: none;
+}
+
+.about-content a:hover {
+    text-decoration: underline;
 }
