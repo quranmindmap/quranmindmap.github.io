@@ -39,6 +39,24 @@ h2 {
     font-style: italic;
 }
 
+#search-input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    background-color: #424242;
+    color: #eee;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: #90caf9;
+    box-shadow: 0 0 5px rgba(144, 202, 249, 0.5);
+}
+
 .language-buttons {
     margin-bottom: 20px;
 }
