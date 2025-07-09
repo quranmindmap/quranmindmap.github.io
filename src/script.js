@@ -26,6 +26,8 @@ function filterSurahs(searchTerm) {
  * @param {Array} surahs - The list of surahs to render.
  */
 function renderSurahGrid(surahs) {
+    const existingTooltips = document.querySelectorAll('.tooltip');
+    existingTooltips.forEach(tooltip => tooltip.remove());
     const surahGrid = document.getElementById("surah-grid");
     if (!surahGrid) {
         console.error("Error: surah-grid element not found in the DOM");
