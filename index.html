@@ -4,17 +4,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quran Surah Directory</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Quran Mindmap - Interactive Surah Study with Visual Mind Maps</title>
+    <meta name="title" content="Quran Mindmap - Interactive Surah Study with Visual Mind Maps">
+    <meta name="description" content="Study the Quran through interactive mind maps. Explore all 114 Surahs with visual representations, Tafsir videos, and comprehensive Islamic learning resources.">
+    <meta name="keywords" content="Quran, mindmap, Surah, Islamic study, Tafsir, Quran learning, Islamic education, mind map, visual learning, Quran study, Islamic resources">
+    <meta name="author" content="Quran Mindmap">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://quranmindmap.github.io/">
+    <meta property="og:title" content="Quran Mindmap - Interactive Surah Study with Visual Mind Maps">
+    <meta property="og:description" content="Study the Quran through interactive mind maps. Explore all 114 Surahs with visual representations, Tafsir videos, and comprehensive Islamic learning resources.">
+    <meta property="og:image" content="https://quranmindmap.github.io/assets/images/quran-mindmap-preview.png">
+    <meta property="og:site_name" content="Quran Mindmap">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://quranmindmap.github.io/">
+    <meta property="twitter:title" content="Quran Mindmap - Interactive Surah Study with Visual Mind Maps">
+    <meta property="twitter:description" content="Study the Quran through interactive mind maps. Explore all 114 Surahs with visual representations, Tafsir videos, and comprehensive Islamic learning resources.">
+    <meta property="twitter:image" content="https://quranmindmap.github.io/assets/images/quran-mindmap-preview.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://quranmindmap.github.io/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Quran Mindmap",
+      "description": "Interactive Quran study through visual mind maps covering all 114 Surahs with Tafsir and educational resources",
+      "url": "https://quranmindmap.github.io/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://quranmindmap.github.io/?search={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Quran Mindmap",
+        "url": "https://quranmindmap.github.io/"
+      },
+      "mainEntity": {
+        "@type": "EducationalOrganization",
+        "name": "Quran Mindmap",
+        "description": "Educational platform for Quran study using interactive mind maps",
+        "url": "https://quranmindmap.github.io/",
+        "educationalUse": "Islamic Education",
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        }
+      }
+    }
+    </script>
+    
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>Quran Surah Directory</h1>
-        <p class="slogan">Visualize, Connect, and Understand the Quran – One Mind Map at a Time.</p>
-        <a href="about.html">Learn about the Mindmap Method</a>
-        <input type="text" id="search-input" placeholder="Search for a Surah..." autocomplete="off">
-        <div class="surah-grid" id="surah-grid"></div>
+        <header>
+            <h1>Quran Surah Directory</h1>
+            <p class="slogan">Visualize, Connect, and Understand the Quran – One Mind Map at a Time.</p>
+            <nav>
+                <a href="about.html">Learn about the Mindmap Method</a>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="search-section">
+                <input type="text" id="search-input" placeholder="Search for a Surah..." autocomplete="off" aria-label="Search Surahs">
+            </section>
+            
+            <section class="surahs-section">
+                <h2 class="visually-hidden">All Quran Surahs</h2>
+                <div class="surah-grid" id="surah-grid" role="grid" aria-label="Quran Surahs Grid"></div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>© 2024 Quran Mindmap. Educational resource for Islamic studies.</p>
+        </footer>
     </div>
 
     <script src="src/script.js"></script>

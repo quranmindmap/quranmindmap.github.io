@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://quranmindmap.github.io/sitemap.xml
+
+# Allow all search engines to crawl the site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Disallow crawling of any admin or private directories (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+
+# Allow crawling of CSS and JS files for better rendering
+Allow: /style.css
+Allow: /src/
+Allow: /assets/
+Allow: /data/
