@@ -310,3 +310,149 @@ h2 {
     height: auto;
     margin-bottom: 30px;
 }
+/* 
+Video Section for Surah Pages */
+.video-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #616161;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.video-section h3 {
+    color: #90caf9;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.video-section .video-container {
+    justify-content: center;
+}
+
+.video-section iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive video styling */
+@media (max-width: 768px) {
+    .video-section iframe {
+        width: 100%;
+        height: 250px;
+        min-width: unset;
+    }
+}
+
+@media (max-width: 480px) {
+    .video-section iframe {
+        height: 200px;
+    }
+    
+    .video-section {
+        padding: 15px;
+        margin-top: 20px;
+    }
+}/* Playli
+st-specific styling */
+.playlist-info {
+    color: #e0e0e0;
+    font-style: italic;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #757575;
+    border-radius: 5px;
+    border-left: 4px solid #90caf9;
+}
+
+.playlist-controls {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #757575;
+    border-radius: 5px;
+    border-left: 4px solid #90caf9;
+}
+
+.playlist-controls p {
+    color: #90caf9;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.playlist-controls ul {
+    color: #e0e0e0;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.playlist-controls li {
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+/* Enhanced video section for playlists */
+.video-section iframe[src*="videoseries"] {
+    border: 2px solid #90caf9;
+}
+
+@media (max-width: 768px) {
+    .playlist-info,
+    .playlist-controls {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+    
+    .playlist-controls ul {
+        padding-left: 15px;
+    }
+}/* Pl
+aylist button styling */
+.playlist-link {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.playlist-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff0000, #cc0000);
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3);
+    border: 2px solid transparent;
+}
+
+.playlist-button:hover {
+    background: linear-gradient(135deg, #cc0000, #990000);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(255, 0, 0, 0.4);
+    text-decoration: none;
+    color: white;
+}
+
+.playlist-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(255, 0, 0, 0.3);
+}
+
+/* Mobile responsive playlist button */
+@media (max-width: 768px) {
+    .playlist-button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .playlist-button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+        display: block;
+        margin: 10px auto;
+        max-width: 250px;
+    }
+}
